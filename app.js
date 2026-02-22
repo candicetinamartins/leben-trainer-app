@@ -1,7 +1,7 @@
 // UI Translations for multiple languages (Keep existing translations)
 const UI_TRANSLATIONS = {
     en: {
-        title: "LEBEN IN DEUTSCHLAND",
+        title: "LIEBE LEBENS IN DEUTSCHLAND",
         selectState: "Select your Bundesland",
         correctAnswer: "Correct Answer:",
         correct: "Wunderbar!",
@@ -16,7 +16,7 @@ const UI_TRANSLATIONS = {
         changeRegion: "Change Region"
     },
     de: {
-        title: "LEBEN IN DEUTSCHLAND",
+        title: "LIEBE LEBENS IN DEUTSCHLAND",
         selectState: "Wählen Sie Ihr Bundesland",
         correctAnswer: "Richtige Antwort:",
         correct: "Wunderbar!",
@@ -49,7 +49,7 @@ const UI_TRANSLATIONS = {
     hi: { title: "जर्मनी में जीवन", selectState: "अपना राज्य चुनें", correctAnswer: "सही उत्तर:", correct: "बहुत बढ़िया!", incorrect: "गलत!", nextQuestion: "अगला प्रश्न", finishExam: "समाप्त करें", examPassed: "उत्तीर्ण!", tryAgain: "पुनः प्रयास", correct_label: "सही", tryNewQuestions: "नए प्रश्न", retrySame: "दोहराएं", changeRegion: "क्षेत्र बदलें" },
     ml: { title: "ജർമ്മനിയിൽ ജീവിതം", selectState: "സംസ്ഥാനം തിരഞ്ഞെടുക്കുക", correctAnswer: "ശരി:", correct: "മികച്ചത്!", incorrect: "തെറ്റ്!", nextQuestion: "അടുത്തത്", finishExam: "പൂർത്തിയാക്കുക", examPassed: "വിജയിച്ചു!", tryAgain: "വീണ്ടും", correct_label: "ശരി", tryNewQuestions: "പുതിയ ചോദ്യങ്ങൾ", retrySame: "ആവർത്തിക്കുക", changeRegion: "മാറ്റുക" },
     ta: { title: "ஜெர்மனியில் வாழ்க்கை", selectState: "மாநிலம் தேர்வு", correctAnswer: "சரியான பதில்:", correct: "அருமை!", incorrect: "தவறு!", nextQuestion: "அடுத்த கேள்வி", finishExam: "முடிக்கவும்", examPassed: "தேர்ச்சி!", tryAgain: "மீண்டும்", correct_label: "சரி", tryNewQuestions: "புதியவை", retrySame: "மீண்டும்", changeRegion: "மாற்றவும்" },
-    te: { title: "జర్మనీలో జీవితం", selectState: "రాష్ట్రాన్ని ఎంచుకోండి", correctAnswer: "సరైన సమాధానం:", correct: "అద్భుతం!", incorrect: "తప్పు!", nextQuestion: "తదుపరి", finishExam: "ముగించండి", examPassed: "ఉత్తీర్ణత!", tryAgain: "మళ్లీ", correct_label: "సరైనది", tryNewQuestions: "కొత్త ప్రశ్నలు", retrySame: "మళ్లీ చేయండి", changeRegion: "మార్చండి" },
+    te: { title: "జర్మనీలో జీవితం", selectState: "రాష్ట్రాన్ని ఎంచుకోండి", correctAnswer: "సరైన సమాధానం:", correct: "అద్భుతం!", incorrect: "తప్పు!", nextQuestion: "తదుపరి", finishExam: "ముగించండి", examPassed: "ఉత్తీర్ణత!", tryAgain: "మళ్ళీ", correct_label: "సరైనది", tryNewQuestions: "కొత్త ప్రశ్నలు", retrySame: "మళ్ళీ చేయండి", changeRegion: "మార్చండి" },
     ar: { title: "الحياة في ألمانيا", selectState: "اختر ولايتك", correctAnswer: "الإجابة الصحيحة:", correct: "رائع!", incorrect: "خطأ!", nextQuestion: "التالي", finishExam: "إنهاء", examPassed: "نجحت!", tryAgain: "حاول مرة أخرى", correct_label: "صحيح", tryNewQuestions: "أسئلة جديدة", retrySame: "كرر", changeRegion: "تغيير" },
     zh: { title: "德国生活", selectState: "选择您的州", correctAnswer: "正确答案：", correct: "太棒了！", incorrect: "错！", nextQuestion: "下一题", finishExam: "完成", examPassed: "通过！", tryAgain: "再试一次", correct_label: "正确", tryNewQuestions: "新题目", retrySame: "重复", changeRegion: "更改" },
     fa: { title: "زندگی در آلمان", selectState: "ایالت انتخاب کنید", correctAnswer: "پاسخ صحیح:", correct: "عالی!", incorrect: "اشتباه!", nextQuestion: "بعدی", finishExam: "پایان", examPassed: "قبول!", tryAgain: "تلاش مجدد", correct_label: "درست", tryNewQuestions: "سؤالات جدید", retrySame: "تکرار", changeRegion: "تغییر" },
@@ -253,7 +253,7 @@ class FlashcardApp {
         return `
             <div class="bg-paper border-b-4 border-black p-4 shrink-0 z-10 relative">
                 <h1 class="text-2xl font-black text-black tracking-tight leading-none">
-                    LEBEN IN <br><span class="bg-black text-white px-2">DEUTSCHLAND</span>
+                    LIEBE LEBENS IN <br><span class="bg-black text-white px-2">DEUTSCHLAND</span>
                 </h1>
                 
                 <div class="flex overflow-x-auto no-scrollbar mt-4 pb-1">

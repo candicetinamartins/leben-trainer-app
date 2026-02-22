@@ -1,7 +1,7 @@
 {
-  "name": "leben-in-deutschland",
+  "name": "liebe-lebens-in-deutschland",
   "version": "1.0.0",
-  "description": "Mobile flashcard app for German citizenship test preparation",
+  "description": "Liebe Lebens in Deutschland - Mobile flashcard app for German citizenship test preparation",
   "author": "candicetinamartins",
   "license": "MIT",
   "devDependencies": {
