@@ -1,0 +1,19 @@
+Image Organization Guide
+==================================================
+
+State Coat of Arms Images:
+Move coat of arms images to: images/state-coats/
+Rename them as: [state-name].png
+
+Examples:
+  - baden-wuerttemberg.png
+  - bayern.png
+  - schleswig-holstein.png
+  - thueringen.png
+
+State Map Images:
+Move Germany state map to: images/state-maps/germany-states.png
+
+General Question Images:
+Keep other images in: images/general/
+Reference them in questions.js with the correct path

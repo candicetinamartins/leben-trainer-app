@@ -1,0 +1,11 @@
+{
+  "name": "leben-in-deutschland",
+  "version": "1.0.0",
+  "description": "Mobile flashcard app for German citizenship test preparation",
+  "author": "candicetinamartins",
+  "license": "MIT",
+  "devDependencies": {
+    "pdf-parse": "^2.4.5",
+    "pdfjs-dist": "^5.4.530"
+  }
+}
