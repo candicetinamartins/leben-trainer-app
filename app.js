@@ -1,7 +1,7 @@
 // UI Translations for multiple languages (Keep existing translations)
 const UI_TRANSLATIONS = {
     en: {
-        title: "LIEBE LEBENS IN DEUTSCHLAND",
+        title: "LEBEN-IN-DEUTSCHLAND TRAINER",
         selectState: "Select your Bundesland",
         correctAnswer: "Correct Answer:",
         correct: "Wunderbar!",
@@ -16,7 +16,7 @@ const UI_TRANSLATIONS = {
         changeRegion: "Change Region"
     },
     de: {
-        title: "LIEBE LEBENS IN DEUTSCHLAND",
+        title: "LEBEN-IN-DEUTSCHLAND TRAINER",
         selectState: "Wählen Sie Ihr Bundesland",
         correctAnswer: "Richtige Antwort:",
         correct: "Wunderbar!",
@@ -253,7 +253,7 @@ class FlashcardApp {
         return `
             <div class="bg-paper border-b-4 border-black p-4 shrink-0 z-10 relative">
                 <h1 class="text-2xl font-black text-black tracking-tight leading-none">
-                    LIEBE LEBENS IN <br><span class="bg-black text-white px-2">DEUTSCHLAND</span>
+                    LEBEN-IN-DEUTSCHLAND <br><span class="bg-black text-white px-2">TRAINER</span>
                 </h1>
                 
                 <div class="flex overflow-x-auto no-scrollbar mt-4 pb-1">
