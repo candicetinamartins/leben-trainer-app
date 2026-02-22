@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Leben-in-Deutschland Trainer - Mobile flashcard app for German citizenship test preparation",
   "author": "candicetinamartins",
-  "license": "MIT",
+  "license": "Proprietary - All Rights Reserved",
+  "private": true,
   "devDependencies": {
     "pdf-parse": "^2.4.5",
     "pdfjs-dist": "^5.4.530"
