@@ -1,25 +1,59 @@
 const fs = require('fs');
 const path = require('path');
 
-// Simple minification function
-function minifyJS(code) {
-    return code
-        // Remove comments
-        .replace(/\/\*[\s\S]*?\*\/|\/\/.*/g, '')
-        // Remove extra whitespace
-        .replace(/\s+/g, ' ')
-        // Remove whitespace around operators
-        .replace(/\s*([=+\-*/<>!&|,;:{}()\[\]])\s*/g, '$1')
-        .trim();
+// Safe JS processing: remove comments and extra blank lines, but keep structure
+function processJS(code) {
+    const lines = code.split('\n');
+    const result = [];
+    let inBlockComment = false;
+    
+    for (let line of lines) {
+        let processed = line;
+        
+        // Handle block comments
+        if (inBlockComment) {
+            const endIndex = processed.indexOf('*/');
+            if (endIndex !== -1) {
+                processed = processed.substring(endIndex + 2);
+                inBlockComment = false;
+            } else {
+                continue; // Skip entire line
+            }
+        }
+        
+        // Remove inline block comments
+        while (processed.includes('/*')) {
+            const start = processed.indexOf('/*');
+            const end = processed.indexOf('*/', start);
+            if (end !== -1) {
+                processed = processed.substring(0, start) + processed.substring(end + 2);
+            } else {
+                processed = processed.substring(0, start);
+                inBlockComment = true;
+                break;
+            }
+        }
+        
+        // Remove single-line comments
+        const commentIndex = processed.indexOf('//');
+        if (commentIndex !== -1) {
+            processed = processed.substring(0, commentIndex);
+        }
+        
+        processed = processed.trimEnd();
+        
+        if (processed.length > 0) {
+            result.push(processed);
+        }
+    }
+    
+    return result.join('\n');
 }
 
 function minifyHTML(code) {
     return code
-        // Remove HTML comments (but keep conditional comments)
         .replace(/<!--(?!\[if)[\s\S]*?-->/g, '')
-        // Remove extra whitespace between tags
         .replace(/>\s+</g, '><')
-        // Remove whitespace around tags
         .replace(/\s+/g, ' ')
         .trim();
 }
@@ -37,13 +71,13 @@ let allJS = '';
 const questionsPath = path.join(__dirname, 'questions.js');
 if (fs.existsSync(questionsPath)) {
     const questionsJS = fs.readFileSync(questionsPath, 'utf8');
-    allJS += minifyJS(questionsJS);
+    allJS += processJS(questionsJS);
     console.log('✓ Minified questions.js');
 }
 
 // Read and minify app.js
 const appJS = fs.readFileSync(path.join(__dirname, 'app.js'), 'utf8');
-allJS += minifyJS(appJS);
+allJS += processJS(appJS);
 fs.writeFileSync(path.join(distDir, 'app.js'), allJS);
 console.log('✓ Minified app.js');
 
