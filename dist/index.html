@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>Leben-in-Deutschland Trainer - Mobile App</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700;900&display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['"Space Grotesk"', 'sans-serif'],
+                    },
+                    boxShadow: {
+                        'neo': '4px 4px 0px 0px rgba(0,0,0,1)',
+                        'neo-sm': '2px 2px 0px 0px rgba(0,0,0,1)',
+                        'neo-pressed': '0px 0px 0px 0px rgba(0,0,0,1)',
+                    },
+                    colors: {
+                        'ger-gold': '#FFCC00',
+                        'ger-red': '#DD0000',
+                        'ger-black': '#1a1a1a',
+                        'paper': '#fdfbf7',
+                        'surface': '#ffffff'
+                    },
+                    screens: {
+                        'xs': '375px',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #f3f4f6;
+            background-image: radial-gradient(#d1d5db 1px, transparent 1px);
+            background-size: 20px 20px;
+            -webkit-tap-highlight-color: transparent;
+            overscroll-behavior-y: none; /* Prevents pull-to-refresh on mobile */
+        }
+        
+        /* Hide scrollbar for Chrome, Safari and Opera */
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        /* Hide scrollbar for IE, Edge and Firefox */
+        .no-scrollbar {
+            -ms-overflow-style: none;  /* IE and Edge */
+            scrollbar-width: none;  /* Firefox */
+        }
+
+        .safe-bottom {
+            padding-bottom: env(safe-area-inset-bottom, 20px);
+        }
+
+        /* Smooth slide up animation */
+        @keyframes slideUp {
+            from { transform: translateY(100%); }
+            to { transform: translateY(0); }
+        }
+        .animate-slide-up {
+            animation: slideUp 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+        }
+    </style>
+</head>
+<body class="h-screen w-screen overflow-hidden text-ger-black select-none">
+    <div id="app" class="h-full w-full flex flex-col"></div>
+
+    <!-- Google Consent Mode v2 — must be BEFORE any Google tags -->
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+
+        // Default: deny all until user consents (GDPR-safe)
+        gtag('consent', 'default', {
+            'ad_storage': 'denied',
+            'ad_user_data': 'denied',
+            'ad_personalization': 'denied',
+            'analytics_storage': 'denied',
+            'wait_for_update': 500
+        });
+    </script>
+
+    <!-- GDPR Consent Banner -->
+    <div id="consent-banner" class="fixed bottom-0 left-0 w-full z-[9999] transition-transform duration-300" style="display:none">
+        <div class="bg-white border-t-4 border-black shadow-[0_-5px_20px_rgba(0,0,0,0.2)] p-4 pb-6 safe-bottom">
+            <div class="max-w-lg mx-auto">
+                <div class="flex items-start gap-3 mb-3">
+                    <span class="text-xl">🍪</span>
+                    <div>
+                        <h3 class="font-black text-sm uppercase">Cookie & Ad Consent</h3>
+                        <p class="text-xs text-gray-600 mt-1 leading-relaxed">
+                            We use <strong>Google AdSense</strong> to display ads. If you accept, Google may use cookies 
+                            and device data for personalised advertising. If you reject, no ad cookies are set and no 
+                            personalised ads are shown. You can change your choice anytime via the ⚙️ icon.
+                            <a href="privacy.html" class="text-blue-600 underline font-semibold">Privacy Policy</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="flex gap-2">
+                    <button id="consent-accept" class="flex-1 py-2.5 text-sm font-black bg-ger-gold text-black border-2 border-black rounded-lg shadow-neo-sm active:shadow-none active:translate-y-[2px] transition-all">
+                        Accept All
+                    </button>
+                    <button id="consent-reject" class="flex-1 py-2.5 text-sm font-bold bg-white text-black border-2 border-black rounded-lg shadow-neo-sm active:shadow-none active:translate-y-[2px] transition-all">
+                        Reject Non-Essential
+                    </button>
+                </div>
+                <p class="text-[10px] text-gray-400 text-center mt-2">
+                    Essential cookies (language preference) are always active.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Consent Manager + Conditional Ad Loading -->
+    <script>
+        const ADSENSE_CLIENT_ID = 'ca-pub-XXXXXXXXXXXXXXXX'; // Replace with your real publisher ID
+        const CONSENT_EXPIRY_DAYS = 365;
+
+        function getAdConsent() {
+            const consent = localStorage.getItem('adConsent');
+            const consentDate = localStorage.getItem('adConsentDate');
+
+            // Check expiry — re-prompt after 365 days (GDPR best practice)
+            if (consent && consentDate) {
+                const daysSince = (Date.now() - new Date(consentDate).getTime()) / (1000 * 60 * 60 * 24);
+                if (daysSince > CONSENT_EXPIRY_DAYS) {
+                    localStorage.removeItem('adConsent');
+                    localStorage.removeItem('adConsentDate');
+                    return null;
+                }
+            }
+            return consent; // 'accepted', 'rejected', or null
+        }
+
+        function setAdConsent(value) {
+            localStorage.setItem('adConsent', value);
+            localStorage.setItem('adConsentDate', new Date().toISOString());
+        }
+
+        function updateGoogleConsent(accepted) {
+            if (accepted) {
+                gtag('consent', 'update', {
+                    'ad_storage': 'granted',
+                    'ad_user_data': 'granted',
+                    'ad_personalization': 'granted',
+                    'analytics_storage': 'granted'
+                });
+            } else {
+                gtag('consent', 'update', {
+                    'ad_storage': 'denied',
+                    'ad_user_data': 'denied',
+                    'ad_personalization': 'denied',
+                    'analytics_storage': 'denied'
+                });
+            }
+        }
+
+        function loadAdSense() {
+            if (document.getElementById('adsense-script')) return;
+            const s = document.createElement('script');
+            s.id = 'adsense-script';
+            s.async = true;
+            s.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=' + ADSENSE_CLIENT_ID;
+            s.crossOrigin = 'anonymous';
+            document.head.appendChild(s);
+        }
+
+        function showConsentBanner() {
+            document.getElementById('consent-banner').style.display = 'block';
+        }
+
+        function hideConsentBanner() {
+            document.getElementById('consent-banner').style.display = 'none';
+        }
+
+        // Global: check if user has accepted ads
+        function hasAdConsent() {
+            return localStorage.getItem('adConsent') === 'accepted';
+        }
+
+        // Global: re-open consent banner (called from app settings gear)
+        function reopenConsentBanner() {
+            showConsentBanner();
+        }
+
+        // On page load, check consent
+        document.addEventListener('DOMContentLoaded', function() {
+            const consent = getAdConsent();
+
+            if (consent === 'accepted') {
+                updateGoogleConsent(true);
+                loadAdSense();
+            } else if (consent === 'rejected') {
+                updateGoogleConsent(false);
+            } else {
+                // null — no decision yet
+                showConsentBanner();
+            }
+
+            document.getElementById('consent-accept').addEventListener('click', function() {
+                setAdConsent('accepted');
+                updateGoogleConsent(true);
+                hideConsentBanner();
+                loadAdSense();
+            });
+
+            document.getElementById('consent-reject').addEventListener('click', function() {
+                setAdConsent('rejected');
+                updateGoogleConsent(false);
+                hideConsentBanner();
+            });
+        });
+    </script>
+
+    <script src="questions.js"></script> 
+    <script src="app.js"></script>
+</body>
+</html>
