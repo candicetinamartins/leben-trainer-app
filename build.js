@@ -10,18 +10,16 @@ function processJS(code) {
     for (let line of lines) {
         let processed = line;
         
-        // Handle block comments
         if (inBlockComment) {
             const endIndex = processed.indexOf('*/');
             if (endIndex !== -1) {
                 processed = processed.substring(endIndex + 2);
                 inBlockComment = false;
             } else {
-                continue; // Skip entire line
+                continue;
             }
         }
         
-        // Remove inline block comments
         while (processed.includes('/*')) {
             const start = processed.indexOf('/*');
             const end = processed.indexOf('*/', start);
@@ -34,14 +32,12 @@ function processJS(code) {
             }
         }
         
-        // Remove single-line comments
         const commentIndex = processed.indexOf('//');
         if (commentIndex !== -1) {
             processed = processed.substring(0, commentIndex);
         }
         
         processed = processed.trimEnd();
-        
         if (processed.length > 0) {
             result.push(processed);
         }
@@ -58,7 +54,6 @@ function minifyHTML(code) {
         .trim();
 }
 
-// Create dist directory
 const distDir = path.join(__dirname, 'dist');
 if (!fs.existsSync(distDir)) {
     fs.mkdirSync(distDir);
@@ -66,31 +61,24 @@ if (!fs.existsSync(distDir)) {
 
 console.log('Building production version...');
 
-// Read and minify questions.js (data must be loaded before app.js)
-let allJS = '';
+// Process and copy questions.js
 const questionsPath = path.join(__dirname, 'questions.js');
 if (fs.existsSync(questionsPath)) {
     const questionsJS = fs.readFileSync(questionsPath, 'utf8');
-    allJS += processJS(questionsJS);
-    console.log('✓ Minified questions.js');
+    fs.writeFileSync(path.join(distDir, 'questions.js'), processJS(questionsJS));
+    console.log('✓ Processed questions.js');
 }
 
-// Read and minify app.js
+// Process and copy app.js
 const appJS = fs.readFileSync(path.join(__dirname, 'app.js'), 'utf8');
-allJS += processJS(appJS);
-fs.writeFileSync(path.join(distDir, 'app.js'), allJS);
-console.log('✓ Minified app.js');
+fs.writeFileSync(path.join(distDir, 'app.js'), processJS(appJS));
+console.log('✓ Processed app.js');
 
-// Read and minify index.html
+// Copy and minify index.html (keep script tags as-is)
 let indexHTML = fs.readFileSync(path.join(__dirname, 'index.html'), 'utf8');
-// Inline all minified JS (questions.js first, then app.js)
-indexHTML = indexHTML.replace(
-    '<script src="app.js"></script>',
-    `<script>${allJS}</script>`
-);
 const minifiedHTML = minifyHTML(indexHTML);
 fs.writeFileSync(path.join(distDir, 'index.html'), minifiedHTML);
-console.log('✓ Minified and inlined index.html');
+console.log('✓ Minified index.html');
 
 // Copy other necessary files
 const filesToCopy = ['privacy.html', 'LICENSE'];
