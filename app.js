@@ -150,8 +150,6 @@ class FlashcardApp {
         this.currentQuestionIndex++;
         if (this.currentQuestionIndex >= this.questions.length) {
             this.renderComplete();
-        } else if (this.currentQuestionIndex > 0 && this.currentQuestionIndex % 10 === 0 && hasAdConsent()) {
-            this.renderAdBreak();
         } else {
             this.render();
         }
@@ -182,7 +180,7 @@ class FlashcardApp {
                 <div class="w-full max-w-sm overflow-hidden flex items-center justify-center min-h-[250px] mb-6">
                     <ins class="adsbygoogle"
                         style="display:inline-block;width:300px;height:250px"
-                        data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+                        data-ad-client="ca-pub-3677433573599533"
                         data-ad-slot="BREAK_AD_SLOT_ID"></ins>
                 </div>
 
@@ -306,13 +304,17 @@ class FlashcardApp {
                 `<img src="${img}" class="h-40 w-auto object-contain border border-gray-200 rounded bg-white" />`
             ).join('');
             imageSection = `
-                <div class="flex gap-2 overflow-x-auto no-scrollbar mb-4 border-2 border-black p-2 rounded-lg bg-gray-50 shadow-neo-sm">
-                    ${imgs}
+                <div class="mb-4 border-2 border-black p-2 rounded-lg bg-gray-50 shadow-neo-sm">
+                    <div class="flex gap-2 overflow-x-auto no-scrollbar">
+                        ${imgs}
+                    </div>
+                    ${question.copyright ? `<div class="text-[10px] text-gray-500 mt-1 text-center leading-tight">${question.copyright}</div>` : ''}
                 </div>`;
         } else if (question.image) {
             imageSection = `
                 <div class="mb-4 border-2 border-black rounded-lg overflow-hidden bg-white shadow-neo-sm">
                     <img src="${question.image}" class="w-full max-h-48 object-contain bg-gray-50" />
+                    ${question.copyright ? `<div class="text-[10px] text-gray-500 mt-1 text-center px-2 pb-1">${question.copyright}</div>` : ''}
                 </div>`;
         }
 
@@ -419,7 +421,7 @@ class FlashcardApp {
                 <div class="drawer-ad-slot w-full my-3 overflow-hidden flex items-center justify-center">
                     <ins class="adsbygoogle"
                         style="display:block"
-                        data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+                        data-ad-client="ca-pub-3677433573599533"
                         data-ad-slot="DRAWER_AD_SLOT_ID"
                         data-ad-format="auto"
                         data-full-width-responsive="true"></ins>

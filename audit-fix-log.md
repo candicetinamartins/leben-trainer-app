@@ -1,0 +1,71 @@
+# Audit Fix Application Log
+
+## Summary
+- Total fixes found in audit file: 61
+- Applied: 33
+- Skipped: 28
+
+## Applied Fixes
+- Q31: textAr "وحدة." -> "كتلة برلمانية"
+- Q31: textZh "单元。" -> "议会党团"
+- Q31: textFa "واحد." -> "گروه پارلمانی"
+- Q32: textZh "立法" -> "新闻媒体"
+- Q32: textAr "تشريع" -> "الصحافة"
+- Q37: textEn "Prime Minister" -> "Minister-President"
+- Q37: textZh "首席部长" -> "州政府总理"
+- Q49: textRu "" -> "Министерство по делам семьи"
+- Q52: textRu "люди выходят." -> "исходит от народа"
+- Q54: textAr "السلطة التشريعية" -> "السلطة التنفيذية"
+- Q60: textRu "Исполнительный." -> "исполнительная власть"
+- Q55: textZh "柏林联邦总理府" -> "柏林的联邦议院大楼"
+- Q60: textEn "Direktive." -> "Directive."
+- Q74: textEn "Federal Assembly" -> "Federal Council (Bundesrat)"
+- Q110: textEn "2 years" -> "federal government"
+- Q118: textRu "только немцы" -> "федеральное правительство"
+- Q146: textEn "Program" -> "program"
+- Q146: textEn "Procedure" -> "procedure"
+- Q146: textEn "Protocol" -> "protocol"
+- Q146: textEn "Trial/Process" -> "trial/process"
+- Q221: textZh "德国人可以在没有护照检查的情况下前往许多欧洲国家。" -> "德国联邦政府"
+- Q233: textRu "Чешская Республика" -> "федеральная конституция"
+- Q248: textZh "国家的。" -> "德国联邦议会"
+- Q276: textFa "من نمی توانم کاری انجام دهم." -> "دادگاه قانون اساسی فدرال"
+- Q289: textTa "அவருக்கு ஜெர்மன் மொழி அறிவு மிகவும் குறைவு." -> "ஜெர்மன் கூட்டாட்சி அரசு"
+- Q317: textZh "因戈尔施塔特。" -> "德国联邦参议院"
+- Q349: textRu "Премьер-министр/Премьер-министр" -> "федеральное государство Германии"
+- Q366: textZh "在国家公民教育中心" -> "德国联邦总统"
+- Q378: textTe "1" -> "జర్మన్ సమాఖ్య ప్రభుత్వం"
+- Q404: textZh "14" -> "德国联邦议院"
+- Q428: textFa "1" -> "دولت فدرال آلمان"
+- Q439: textRu "Первый министр" -> "Федеральный конституционный суд Германии"
+- Q458: textZh "1" -> "德国联邦政府"
+
+## Skipped Fixes
+- Q4: textAr - Current value "اليقظة" not found
+- Q4: textFa - Current value "هوشیاری" not found
+- Q4: textRu - Current value "Бдительность" not found
+- Q4: textTa - Current value "விழிப்புணர்ச்சி" not found
+- Q4: textTe - Current value "జాగరూకత" not found
+- Q5: textTa - Current value "தேர்தலின் போது வாக்காளர்கள் செல்வாக்கு செலுத்தப்படவோ அல்லது கட்டாயப்படுத்தவோ கூடாது." not found
+- Q13: textEn - Current value "all members of the parliment who do not belong to the governing party/parties." not found
+- Q14: textFa - Current value "يمكنني ارتداء رموز النازية أو حماس أو تنظيم الدولة الإسلامية علناً." not found
+- Q15: textEn - Current value "freedom to choose one's profession" not found
+- Q16: textEn - Current value "public defamation or knowingly false allegations" not found
+- Q24: textRu - Current value "свобода собраний" not found
+- Q38: textEn - Current value "state" not found
+- Q58: textZh - Current value "" not found
+- Q62: textTe - Current value "సంఘీయ రాజ్యాంగ న్యాయస్థానం" not found
+- Q68: textEn - Current value "equal rights" not found
+- Q85: textZh - Current value "联邦总理府" not found
+- Q93: textHi - Current value "संघीय गणराज्य" not found
+- Q95: textFa - Current value "رأی مخفی" not found
+- Q101: textZh - Current value "政党" not found
+- Q121: textTa - Current value "கூட்டாட்சி நாடாளுமன்றம்" not found
+- Q133: textZh - Current value "联邦议院" not found
+- Q196: textZh - Current value "州议会" not found
+- Q214: textEn - Current value "Nation" not found
+- Q257: textEn - Current value "Federal States" not found
+- Q305: textEn - Current value "Federal Constitutional Court" not found
+- Q338: textEn - Current value "Federal Republic" not found
+- Q397: textEn - Current value "Political Parties" not found
+- Q454: textEn - Current value "Democracy" not found

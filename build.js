@@ -61,7 +61,7 @@ if (!fs.existsSync(distDir)) {
 
 console.log('Building production version...');
 
-// Process and copy questions.js
+// Process and copy questions.js (strip comments)
 const questionsPath = path.join(__dirname, 'questions.js');
 if (fs.existsSync(questionsPath)) {
     const questionsJS = fs.readFileSync(questionsPath, 'utf8');
@@ -69,19 +69,17 @@ if (fs.existsSync(questionsPath)) {
     console.log('✓ Processed questions.js');
 }
 
-// Process and copy app.js
+// Process and copy app.js (strip comments)
 const appJS = fs.readFileSync(path.join(__dirname, 'app.js'), 'utf8');
 fs.writeFileSync(path.join(distDir, 'app.js'), processJS(appJS));
 console.log('✓ Processed app.js');
 
-// Copy and minify index.html (keep script tags as-is)
-let indexHTML = fs.readFileSync(path.join(__dirname, 'index.html'), 'utf8');
-const minifiedHTML = minifyHTML(indexHTML);
-fs.writeFileSync(path.join(distDir, 'index.html'), minifiedHTML);
-console.log('✓ Minified index.html');
+// Copy index.html as-is
+fs.copyFileSync(path.join(__dirname, 'index.html'), path.join(distDir, 'index.html'));
+console.log('✓ Copied index.html');
 
 // Copy other necessary files
-const filesToCopy = ['privacy.html', 'LICENSE'];
+const filesToCopy = ['privacy.html', 'LICENSE', 'ads.txt', 'leben_in_deutschland_trainer_icon.svg'];
 filesToCopy.forEach(file => {
     if (fs.existsSync(path.join(__dirname, file))) {
         let content = fs.readFileSync(path.join(__dirname, file), 'utf8');

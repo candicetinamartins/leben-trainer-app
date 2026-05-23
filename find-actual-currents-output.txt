@@ -1,0 +1,203 @@
+Q4 textAr -> "أخذ القانون باليد":
+  [0] "حيازة السلاح" (NEEDS FIX)
+  [1] "قانون القبضة" (NEEDS FIX)
+  [2] "حرية التعبير" (NEEDS FIX)
+  [3] "اليقظة" (NEEDS FIX)
+
+Q4 textFa -> "خودسری در اجرای قانون":
+  [0] "داشتن سلاح" (NEEDS FIX)
+  [1] "قانون مشت" (NEEDS FIX)
+  [2] "آزادی بیان" (NEEDS FIX)
+  [3] "هوشیاری" (NEEDS FIX)
+
+Q4 textRu -> "Самосуд":
+  [0] "Владение оружием" (NEEDS FIX)
+  [1] "Закон кулака" (NEEDS FIX)
+  [2] "Свобода выражения мнений" (NEEDS FIX)
+  [3] "Бдительность" (NEEDS FIX)
+
+Q4 textTa -> "சுயநீதி":
+  [0] "ஆயுதம் வைத்திருத்தல்" (NEEDS FIX)
+  [1] "முஷ்டியின் சட்டம்" (NEEDS FIX)
+  [2] "கருத்து சுதந்திரம்" (NEEDS FIX)
+  [3] "விழிப்புணர்ச்சி" (NEEDS FIX)
+
+Q4 textTe -> "స్వయంకృత న్యాయం":
+  [0] "ఆయుధ స్వాధీనము" (NEEDS FIX)
+  [1] "పిడికిలి చట్టం" (NEEDS FIX)
+  [2] "భావ ప్రకటనా స్వేచ్ఛ" (NEEDS FIX)
+  [3] "జాగరూకత" (NEEDS FIX)
+
+Q5 textTa -> "தேர்தலின் போது வாக்காளர்கள் செல்வாக்கு செலுத்தப்படவோ அல்லது கட்டாயப்படுத்தப்படவோ கூடாது; மேலும் வாக்களித்ததற்காக எந்த பாதிப்பும் சந்திக்கக் கூடாது.":
+  [0] "குறிப்பிட்ட வேட்பாளருக்கு வாக்களித்தால் பணத்தை ஏற்கலாம்." (NEEDS FIX)
+  [1] "இதுவரை சிறையில் இல்லாதவர்கள் மட்டுமே வாக்களிக்க அனுமதிக்கப்படுகிறார்கள்." (NEEDS FIX)
+  [2] "தேர்தலின் போது வாக்காளர்கள் செல்வாக்கு செலுத்தப்படவோ அல்லது கட்டாயப்படுத்தவோ கூடாது." (NEEDS FIX)
+  [3] "தகுதியுள்ள வாக்காளர்கள் அனைவரும் வாக்களிக்க வேண்டும்." (NEEDS FIX)
+
+Q13 textEn -> "all members of parliament who do not belong to the governing party/parties.":
+  [0] "the ruling parties." (NEEDS FIX)
+  [1] "the parliamentary group with the most members." (NEEDS FIX)
+  [2] "all parties that reached the 5% threshold in the last election." (NEEDS FIX)
+  [3] "all members who do not belong to the governing party/parties." (NEEDS FIX)
+
+Q14 textFa -> "می‌توانم نمادهای نازی، حماس یا دولت اسلامی را علناً نمایش دهم.":
+  [0] "توهین به عابران در خیابان مجاز است." (NEEDS FIX)
+  [1] "می توانم نظر خود را در اینترنت بیان کنم." (NEEDS FIX)
+  [2] "می تواند نمادهای نازی، حماس یا دولت اسلامی را در ملاء عام بپوشد." (NEEDS FIX)
+  [3] "من فقط تا زمانی اجازه دارم که نظرم را بیان کنم که مخالف دولت نباشم." (NEEDS FIX)
+
+Q15 textEn -> "free choice of profession":
+  [0] "Military service" (NEEDS FIX)
+  [1] "Forced labor" (NEEDS FIX)
+  [2] "Free choice of profession" (NEEDS FIX)
+  [3] "Work abroad" (NEEDS FIX)
+
+Q16 textEn -> "publicly spreading false factual allegations about individuals":
+  [0] "when publicly spreading false claims about individuals" (NEEDS FIX)
+  [1] "when expressing opinions about the federal government" (NEEDS FIX)
+  [2] "when discussing religions" (NEEDS FIX)
+  [3] "when criticizing the state" (NEEDS FIX)
+
+Q24 textRu -> "свобода проведения собраний":
+  [0] "" (NEEDS FIX)
+  [1] "15" (NEEDS FIX)
+  [2] "16" (NEEDS FIX)
+  [3] "17" (NEEDS FIX)
+
+Q38 textEn -> "federal state":
+  [0] "Association of states." (NEEDS FIX)
+  [1] "Federal state." (NEEDS FIX)
+  [2] "Confederation." (NEEDS FIX)
+  [3] "Centralized state." (NEEDS FIX)
+
+Q49 textRu -> "Министерство по делам семьи":
+  [0] "учителя" (NEEDS FIX)
+  [1] "федеральные земли" (NEEDS FIX)
+  [2] "" (NEEDS FIX)
+  [3] "университеты" (NEEDS FIX)
+
+Q58 textZh -> "联邦参议院议长":
+  [0] "联邦宪法法院院长" (NEEDS FIX)
+  [1] "联邦总统" (NEEDS FIX)
+  [2] "" (NEEDS FIX)
+  [3] "联邦议院议长" (NEEDS FIX)
+
+Q60 textEn -> "Directive.":
+  [0] "Executive." (NEEDS FIX)
+  [1] "Legislative." (NEEDS FIX)
+  [2] "Direktive." (NEEDS FIX)
+  [3] "Judiciary." (NEEDS FIX)
+
+Q62 textTe -> "ఫెడరల్ రాజ్యాంగ కోర్టు":
+  [0] "స్థానిక ఎన్నికలు" (NEEDS FIX)
+  [1] "" (NEEDS FIX)
+  [2] "యూరోపియన్ ఎన్నికలు" (NEEDS FIX)
+  [3] "ఫెడరల్ ఎన్నికలు" (NEEDS FIX)
+
+Q68 textEn -> "equal rights under the law":
+  [0] "because there are only state schools in Germany" (NEEDS FIX)
+  [1] "because all students must have a school diploma" (NEEDS FIX)
+  [2] "because there are different schools in the federal states" (NEEDS FIX)
+  [3] "because it is its task according to the Basic Law" (NEEDS FIX)
+
+Q85 textZh -> "德国联邦总理府":
+  [0] "" (NEEDS FIX)
+  [1] "联邦政府部长" (NEEDS FIX)
+  [2] "联邦各州政府代表" (NEEDS FIX)
+  [3] "党员" (NEEDS FIX)
+
+Q93 textHi -> "जर्मनी का संघीय गणराज्य":
+  [0] "" (NEEDS FIX)
+  [1] "पार्टी के अधिकाधिक प्रत्यक्ष उम्मीदवार संसद में प्रवेश करते हैं।" (NEEDS FIX)
+  [2] "गठबंधन बनाने का जोखिम अधिक है." (NEEDS FIX)
+  [3] "पार्टी को संसद में अधिक सीटें प्राप्त होती हैं।" (NEEDS FIX)
+
+Q95 textFa -> "رأی‌گیری مخفی":
+  [0] "رای گیری اجباری" (NEEDS FIX)
+  [1] "تحصیل اجباری" (NEEDS FIX)
+  [2] "محرمانه بودن" (NEEDS FIX)
+  [3] "" (NEEDS FIX)
+
+Q101 textZh -> "政治党派":
+  [0] "" (NEEDS FIX)
+  [1] "雇员。" (NEEDS FIX)
+  [2] "养老金领取者。" (NEEDS FIX)
+  [3] "雇主。" (NEEDS FIX)
+
+Q121 textTa -> "ஜெர்மன் கூட்டாட்சி பாராளுமன்றம்":
+  [0] "" (NEEDS FIX)
+  [1] "சேர்க்கை வரம்பு." (NEEDS FIX)
+  [2] "அடிப்படை மதிப்பு." (NEEDS FIX)
+  [3] "கொள்கை." (NEEDS FIX)
+
+Q133 textZh -> "德国联邦议院":
+  [0] "丈夫投票给妻子。" (NEEDS FIX)
+  [1] "您可以通过邮寄投票的方式进行投票。" (NEEDS FIX)
+  [2] "您可以在选举日通过电话投票。" (NEEDS FIX)
+  [3] "" (NEEDS FIX)
+
+Q146 textEn -> "program":
+  [0] "Program" (NEEDS FIX)
+  [1] "Procedure" (NEEDS FIX)
+  [2] "Protocol" (NEEDS FIX)
+  [3] "Trial/Process" (NEEDS FIX)
+
+Q146 textEn -> "procedure":
+  [0] "Program" (NEEDS FIX)
+  [1] "Procedure" (NEEDS FIX)
+  [2] "Protocol" (NEEDS FIX)
+  [3] "Trial/Process" (NEEDS FIX)
+
+Q146 textEn -> "protocol":
+  [0] "Program" (NEEDS FIX)
+  [1] "Procedure" (NEEDS FIX)
+  [2] "Protocol" (NEEDS FIX)
+  [3] "Trial/Process" (NEEDS FIX)
+
+Q146 textEn -> "trial/process":
+  [0] "Program" (NEEDS FIX)
+  [1] "Procedure" (NEEDS FIX)
+  [2] "Protocol" (NEEDS FIX)
+  [3] "Trial/Process" (NEEDS FIX)
+
+Q196 textZh -> "德国州议会":
+  [0] "从独裁到民主。" (NEEDS FIX)
+  [1] "从自由市场经济转向社会主义。" (NEEDS FIX)
+  [2] "" (NEEDS FIX)
+  [3] "从宗教国家到共产主义国家。" (NEEDS FIX)
+
+Q214 textEn -> "nation":
+  [0] "black-red-gold" (NEEDS FIX)
+  [1] "red-white-black" (NEEDS FIX)
+  [2] "black-red-green" (NEEDS FIX)
+  [3] "black-yellow-red" (NEEDS FIX)
+
+Q257 textEn -> "federal states":
+  [0] "at a university." (NEEDS FIX)
+  [1] "at an evening high school." (NEEDS FIX)
+  [2] "at a secondary school." (NEEDS FIX)
+  [3] "at a private university." (NEEDS FIX)
+
+Q305 textEn -> "Federal Constitutional Court of Germany":
+  [0] "blue-white-rot" (NEEDS FIX)
+  [1] "black-gold" (NEEDS FIX)
+  [2] "white-blue" (NEEDS FIX)
+  [3] "grün-white-red" (NEEDS FIX)
+
+Q338 textEn -> "federal republic":
+  [0] "1" (NEEDS FIX)
+  [1] "2" (NEEDS FIX)
+  [2] "3" (NEEDS FIX)
+  [3] "4" (NEEDS FIX)
+
+Q397 textEn -> "political parties":
+  [0] "Köln." (NEEDS FIX)
+  [1] "Bonn." (NEEDS FIX)
+  [2] "Düsseldorf." (NEEDS FIX)
+  [3] "Dortmund." (NEEDS FIX)
+
+Q454 textEn -> "democracy":
+  [0] "14" (NEEDS FIX)
+  [1] "16" (NEEDS FIX)
+  [2] "18" (NEEDS FIX)
+  [3] "20" (NEEDS FIX)

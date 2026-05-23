@@ -160,7 +160,7 @@ class FlashcardApp {
                 <div class="w-full max-w-sm overflow-hidden flex items-center justify-center min-h-[250px] mb-6">
                     <ins class="adsbygoogle"
                         style="display:inline-block;width:300px;height:250px"
-                        data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+                        data-ad-client="ca-pub-3677433573599533"
                         data-ad-slot="BREAK_AD_SLOT_ID"></ins>
                 </div>
                 <div class="text-gray-600 text-[10px] uppercase tracking-widest">Ad closes automatically</div>
@@ -358,7 +358,7 @@ class FlashcardApp {
                 <div class="drawer-ad-slot w-full my-3 overflow-hidden flex items-center justify-center">
                     <ins class="adsbygoogle"
                         style="display:block"
-                        data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+                        data-ad-client="ca-pub-3677433573599533"
                         data-ad-slot="DRAWER_AD_SLOT_ID"
                         data-ad-format="auto"
                         data-full-width-responsive="true"></ins>
