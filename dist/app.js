@@ -195,6 +195,9 @@ class FlashcardApp {
             app.innerHTML = this.renderStateSelection();
         } else {
             app.innerHTML = this.renderQuestionCard();
+            if (hasAdConsent()) {
+                try { (adsbygoogle = window.adsbygoogle || []).push({}); } catch(e) {}
+            }
         }
         this.attachEventListeners();
     }
@@ -310,6 +313,13 @@ class FlashcardApp {
                             </div>
                         </button>
                     `).join('')}
+                </div>
+                <!-- Banner Ad -->
+                <div class="mt-6 flex justify-center min-h-[250px]">
+                    <ins class="adsbygoogle"
+                        style="display:inline-block;width:300px;height:250px"
+                        data-ad-client="ca-pub-3677433573599533"
+                        data-ad-slot="BREAK_AD_SLOT_ID"></ins>
                 </div>
             </div>
             <div id="drawer-container" class="fixed bottom-0 left-0 w-full z-50 pointer-events-none"></div>

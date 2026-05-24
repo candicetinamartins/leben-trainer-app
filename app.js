@@ -225,6 +225,10 @@ class FlashcardApp {
             app.innerHTML = this.renderStateSelection();
         } else {
             app.innerHTML = this.renderQuestionCard();
+            // Load banner ad after inserting HTML
+            if (hasAdConsent()) {
+                try { (adsbygoogle = window.adsbygoogle || []).push({}); } catch(e) {}
+            }
         }
         this.attachEventListeners();
     }
@@ -359,6 +363,14 @@ class FlashcardApp {
                             </div>
                         </button>
                     `).join('')}
+                </div>
+
+                <!-- Banner Ad -->
+                <div class="mt-6 flex justify-center min-h-[250px]">
+                    <ins class="adsbygoogle"
+                        style="display:inline-block;width:300px;height:250px"
+                        data-ad-client="ca-pub-3677433573599533"
+                        data-ad-slot="BREAK_AD_SLOT_ID"></ins>
                 </div>
             </div>
 
