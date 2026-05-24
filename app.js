@@ -305,11 +305,11 @@ class FlashcardApp {
         let imageSection = '';
         if (question.images && question.images.length > 0) {
             const imgs = question.images.map((img, i) => 
-                `<img src="${img}" class="h-40 w-auto object-contain border border-gray-200 rounded bg-white" />`
+                `<img src="${img}" class="h-32 sm:h-40 max-w-full object-contain border border-gray-200 rounded bg-white" />`
             ).join('');
             imageSection = `
                 <div class="mb-4 border-2 border-black p-2 rounded-lg bg-gray-50 shadow-neo-sm">
-                    <div class="flex gap-2 overflow-x-auto no-scrollbar">
+                    <div class="flex flex-wrap justify-center gap-2">
                         ${imgs}
                     </div>
                     ${question.copyright ? `<div class="text-[10px] text-gray-500 mt-1 text-center leading-tight">${question.copyright}</div>` : ''}
@@ -317,7 +317,7 @@ class FlashcardApp {
         } else if (question.image) {
             imageSection = `
                 <div class="mb-4 border-2 border-black rounded-lg overflow-hidden bg-white shadow-neo-sm">
-                    <img src="${question.image}" class="w-full max-h-48 object-contain bg-gray-50" />
+                    <img src="${question.image}" class="w-full max-w-full max-h-[35vh] md:max-h-64 object-contain bg-gray-50" />
                     ${question.copyright ? `<div class="text-[10px] text-gray-500 mt-1 text-center px-2 pb-1">${question.copyright}</div>` : ''}
                 </div>`;
         }
@@ -434,7 +434,7 @@ class FlashcardApp {
                     <ins class="adsbygoogle"
                         style="display:block"
                         data-ad-client="ca-pub-3677433573599533"
-                        data-ad-slot="DRAWER_AD_SLOT_ID"
+                        data-ad-slot="3443196805"
                         data-ad-format="auto"
                         data-full-width-responsive="true"></ins>
                 </div>
