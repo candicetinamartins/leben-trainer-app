@@ -181,7 +181,7 @@ class FlashcardApp {
                     <ins class="adsbygoogle"
                         style="display:inline-block;width:300px;height:250px"
                         data-ad-client="ca-pub-3677433573599533"
-                        data-ad-slot="BREAK_AD_SLOT_ID"></ins>
+                        data-ad-slot="3443196805"></ins>
                 </div>
 
                 <div class="text-gray-600 text-[10px] uppercase tracking-widest">Ad closes automatically</div>
@@ -370,7 +370,7 @@ class FlashcardApp {
                     <ins class="adsbygoogle"
                         style="display:inline-block;width:300px;height:250px"
                         data-ad-client="ca-pub-3677433573599533"
-                        data-ad-slot="BREAK_AD_SLOT_ID"></ins>
+                        data-ad-slot="3443196805"></ins>
                 </div>
             </div>
 
