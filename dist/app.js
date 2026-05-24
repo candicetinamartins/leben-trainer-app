@@ -132,8 +132,6 @@ class FlashcardApp {
         this.currentQuestionIndex++;
         if (this.currentQuestionIndex >= this.questions.length) {
             this.renderComplete();
-        } else if (this.currentQuestionIndex > 0 && this.currentQuestionIndex % 10 === 0 && hasAdConsent()) {
-            this.renderAdBreak();
         } else {
             this.render();
         }
@@ -261,13 +259,17 @@ class FlashcardApp {
                 `<img src="${img}" class="h-40 w-auto object-contain border border-gray-200 rounded bg-white" />`
             ).join('');
             imageSection = `
-                <div class="flex gap-2 overflow-x-auto no-scrollbar mb-4 border-2 border-black p-2 rounded-lg bg-gray-50 shadow-neo-sm">
-                    ${imgs}
+                <div class="mb-4 border-2 border-black p-2 rounded-lg bg-gray-50 shadow-neo-sm">
+                    <div class="flex gap-2 overflow-x-auto no-scrollbar">
+                        ${imgs}
+                    </div>
+                    ${question.copyright ? `<div class="text-[10px] text-gray-500 mt-1 text-center leading-tight">${question.copyright}</div>` : ''}
                 </div>`;
         } else if (question.image) {
             imageSection = `
                 <div class="mb-4 border-2 border-black rounded-lg overflow-hidden bg-white shadow-neo-sm">
                     <img src="${question.image}" class="w-full max-h-48 object-contain bg-gray-50" />
+                    ${question.copyright ? `<div class="text-[10px] text-gray-500 mt-1 text-center px-2 pb-1">${question.copyright}</div>` : ''}
                 </div>`;
         }
         return `
