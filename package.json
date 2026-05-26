@@ -5,6 +5,11 @@
   "author": "candicetinamartins",
   "license": "Proprietary - All Rights Reserved",
   "private": true,
+  "scripts": {
+    "build": "node build.js",
+    "check": "node --check app.js && node --check questions.js",
+    "android:assets": "node build.js"
+  },
   "devDependencies": {
     "pdf-parse": "^2.4.5",
     "pdfjs-dist": "^5.4.530"

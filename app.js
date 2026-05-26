@@ -156,6 +156,11 @@ class FlashcardApp {
     }
 
     renderAdBreak() {
+        if (!hasAdConsent()) {
+            this.render();
+            return;
+        }
+
         const app = document.getElementById('app');
         const progress = Math.round((this.currentQuestionIndex / this.questions.length) * 100);
 
@@ -188,10 +193,7 @@ class FlashcardApp {
             </div>
         `;
 
-        // Load the interstitial ad (only if consent granted)
-        if (hasAdConsent()) {
-            try { (adsbygoogle = window.adsbygoogle || []).push({}); } catch(e) {}
-        }
+        try { (adsbygoogle = window.adsbygoogle || []).push({}); } catch(e) {}
 
         // Show the dismiss button after 5 seconds
         setTimeout(() => {
@@ -263,18 +265,18 @@ class FlashcardApp {
                 </div>
             </div>
 
-            <div class="flex-1 overflow-y-auto p-4 bg-gray-100">
-                <p class="text-lg font-bold mb-4 text-center text-gray-600 font-mono sticky top-0 bg-gray-100 py-2 z-0">
+            <div class="flex-1 overflow-y-auto p-3 bg-gray-100">
+                <p class="text-sm font-bold mb-3 text-center text-gray-600 font-mono sticky top-0 bg-gray-100 py-2 z-0">
                     ${this.getTranslation('selectState')}
                 </p>
                 
-                <div class="grid grid-cols-2 gap-3 pb-4">
+                <div class="grid grid-cols-3 gap-2 pb-4">
                     ${STATES.map(state => `
                         <button 
-                            class="state-btn relative h-32 bg-white border-2 border-black rounded-xl shadow-neo flex items-center justify-center p-2 transition-all active:shadow-pressed active:translate-x-[4px] active:translate-y-[4px]"
+                            class="state-btn relative h-16 bg-white border-2 border-black rounded-lg shadow-neo-sm flex items-center justify-center px-2 transition-all active:shadow-pressed active:translate-x-[2px] active:translate-y-[2px]"
                             data-state="${state}"
                         >
-                            <span class="text-sm md:text-base font-bold text-black uppercase text-center leading-tight">
+                            <span class="text-[11px] md:text-sm font-bold text-black uppercase text-center leading-tight">
                                 ${state}
                             </span>
                         </button>
@@ -365,13 +367,14 @@ class FlashcardApp {
                     `).join('')}
                 </div>
 
-                <!-- Banner Ad -->
+                ${hasAdConsent() ? `
                 <div class="mt-6 flex justify-center min-h-[250px]">
                     <ins class="adsbygoogle"
                         style="display:inline-block;width:300px;height:250px"
                         data-ad-client="ca-pub-3677433573599533"
                         data-ad-slot="3443196805"></ins>
                 </div>
+                ` : ''}
             </div>
 
             <div id="drawer-container" class="fixed bottom-0 left-0 w-full z-50 pointer-events-none"></div>

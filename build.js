@@ -79,7 +79,7 @@ fs.copyFileSync(path.join(__dirname, 'index.html'), path.join(distDir, 'index.ht
 console.log('✓ Copied index.html');
 
 // Copy other necessary files
-const filesToCopy = ['privacy.html', 'LICENSE', 'ads.txt', 'leben_in_deutschland_trainer_icon.svg'];
+const filesToCopy = ['privacy.html', 'LICENSE', 'ads.txt', 'leben_in_deutschland_trainer_icon.svg', 'styles.css'];
 filesToCopy.forEach(file => {
     if (fs.existsSync(path.join(__dirname, file))) {
         let content = fs.readFileSync(path.join(__dirname, file), 'utf8');
@@ -129,6 +129,12 @@ const distImagesDir = path.join(distDir, 'images');
 if (fs.existsSync(imagesDir)) {
     copyDirRecursive(imagesDir, distImagesDir);
     console.log('✓ Copied images directory');
+}
+
+const androidAssetsDir = path.join(__dirname, 'android', 'app', 'src', 'main', 'assets', 'www');
+if (fs.existsSync(path.join(__dirname, 'android'))) {
+    copyDirRecursive(distDir, androidAssetsDir);
+    console.log('✓ Synced Android WebView assets');
 }
 
 console.log('\n✅ Build complete! Deploy the "dist" folder to GitHub Pages.');

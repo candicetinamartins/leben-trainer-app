@@ -1,0 +1,1523 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "app.js",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L1",
+      "id": "app_js",
+      "community": 0,
+      "norm_label": "app.js"
+    },
+    {
+      "label": "FlashcardApp",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L59",
+      "id": "lidphoneapp_app_flashcardapp",
+      "community": 0,
+      "norm_label": "flashcardapp"
+    },
+    {
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L60",
+      "id": "lidphoneapp_app_flashcardapp_constructor",
+      "community": 0,
+      "norm_label": ".constructor()"
+    },
+    {
+      "label": ".init()",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L71",
+      "id": "lidphoneapp_app_flashcardapp_init",
+      "community": 0,
+      "norm_label": ".init()"
+    },
+    {
+      "label": ".setLanguage()",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L75",
+      "id": "lidphoneapp_app_flashcardapp_setlanguage",
+      "community": 3,
+      "norm_label": ".setlanguage()"
+    },
+    {
+      "label": ".getTranslation()",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L81",
+      "id": "lidphoneapp_app_flashcardapp_gettranslation",
+      "community": 4,
+      "norm_label": ".gettranslation()"
+    },
+    {
+      "label": ".getQuestionText()",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L85",
+      "id": "lidphoneapp_app_flashcardapp_getquestiontext",
+      "community": 0,
+      "norm_label": ".getquestiontext()"
+    },
+    {
+      "label": ".getAnswerText()",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L94",
+      "id": "lidphoneapp_app_flashcardapp_getanswertext",
+      "community": 0,
+      "norm_label": ".getanswertext()"
+    },
+    {
+      "label": ".shuffleArray()",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L103",
+      "id": "lidphoneapp_app_flashcardapp_shufflearray",
+      "community": 8,
+      "norm_label": ".shufflearray()"
+    },
+    {
+      "label": ".selectState()",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L112",
+      "id": "lidphoneapp_app_flashcardapp_selectstate",
+      "community": 8,
+      "norm_label": ".selectstate()"
+    },
+    {
+      "label": ".selectAnswer()",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L131",
+      "id": "lidphoneapp_app_flashcardapp_selectanswer",
+      "community": 4,
+      "norm_label": ".selectanswer()"
+    },
+    {
+      "label": ".nextQuestion()",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L148",
+      "id": "lidphoneapp_app_flashcardapp_nextquestion",
+      "community": 4,
+      "norm_label": ".nextquestion()"
+    },
+    {
+      "label": ".renderAdBreak()",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L158",
+      "id": "lidphoneapp_app_flashcardapp_renderadbreak",
+      "community": 3,
+      "norm_label": ".renderadbreak()"
+    },
+    {
+      "label": ".dismissAdBreak()",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L210",
+      "id": "lidphoneapp_app_flashcardapp_dismissadbreak",
+      "community": 3,
+      "norm_label": ".dismissadbreak()"
+    },
+    {
+      "label": ".restart()",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L214",
+      "id": "lidphoneapp_app_flashcardapp_restart",
+      "community": 3,
+      "norm_label": ".restart()"
+    },
+    {
+      "label": ".render()",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L224",
+      "id": "lidphoneapp_app_flashcardapp_render",
+      "community": 3,
+      "norm_label": ".render()"
+    },
+    {
+      "label": ".renderLanguagePill()",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L239",
+      "id": "lidphoneapp_app_flashcardapp_renderlanguagepill",
+      "community": 0,
+      "norm_label": ".renderlanguagepill()"
+    },
+    {
+      "label": ".renderStateSelection()",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L249",
+      "id": "lidphoneapp_app_flashcardapp_renderstateselection",
+      "community": 4,
+      "norm_label": ".renderstateselection()"
+    },
+    {
+      "label": ".renderQuestionCard()",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L296",
+      "id": "lidphoneapp_app_flashcardapp_renderquestioncard",
+      "community": 0,
+      "norm_label": ".renderquestioncard()"
+    },
+    {
+      "label": ".renderFeedbackDrawer()",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L385",
+      "id": "lidphoneapp_app_flashcardapp_renderfeedbackdrawer",
+      "community": 4,
+      "norm_label": ".renderfeedbackdrawer()"
+    },
+    {
+      "label": ".renderComplete()",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L477",
+      "id": "lidphoneapp_app_flashcardapp_rendercomplete",
+      "community": 4,
+      "norm_label": ".rendercomplete()"
+    },
+    {
+      "label": ".attachEventListeners()",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L529",
+      "id": "lidphoneapp_app_flashcardapp_attacheventlisteners",
+      "community": 3,
+      "norm_label": ".attacheventlisteners()"
+    },
+    {
+      "label": "apply-audit-fixes-v2.js",
+      "file_type": "code",
+      "source_file": "apply-audit-fixes-v2.js",
+      "source_location": "L1",
+      "id": "apply_audit_fixes_v2_js",
+      "community": 10,
+      "norm_label": "apply-audit-fixes-v2.js"
+    },
+    {
+      "label": "apply-audit-fixes-v3.js",
+      "file_type": "code",
+      "source_file": "apply-audit-fixes-v3.js",
+      "source_location": "L1",
+      "id": "apply_audit_fixes_v3_js",
+      "community": 11,
+      "norm_label": "apply-audit-fixes-v3.js"
+    },
+    {
+      "label": "apply-audit-fixes-v4.js",
+      "file_type": "code",
+      "source_file": "apply-audit-fixes-v4.js",
+      "source_location": "L1",
+      "id": "apply_audit_fixes_v4_js",
+      "community": 12,
+      "norm_label": "apply-audit-fixes-v4.js"
+    },
+    {
+      "label": "apply-audit-fixes-v5.js",
+      "file_type": "code",
+      "source_file": "apply-audit-fixes-v5.js",
+      "source_location": "L1",
+      "id": "apply_audit_fixes_v5_js",
+      "community": 13,
+      "norm_label": "apply-audit-fixes-v5.js"
+    },
+    {
+      "label": "apply-audit-fixes.js",
+      "file_type": "code",
+      "source_file": "apply-audit-fixes.js",
+      "source_location": "L1",
+      "id": "apply_audit_fixes_js",
+      "community": 14,
+      "norm_label": "apply-audit-fixes.js"
+    },
+    {
+      "label": "build.js",
+      "file_type": "code",
+      "source_file": "build.js",
+      "source_location": "L1",
+      "id": "build_js",
+      "community": 7,
+      "norm_label": "build.js"
+    },
+    {
+      "label": "processJS()",
+      "file_type": "code",
+      "source_file": "build.js",
+      "source_location": "L5",
+      "id": "lidphoneapp_build_processjs",
+      "community": 7,
+      "norm_label": "processjs()"
+    },
+    {
+      "label": "minifyHTML()",
+      "file_type": "code",
+      "source_file": "build.js",
+      "source_location": "L49",
+      "id": "lidphoneapp_build_minifyhtml",
+      "community": 7,
+      "norm_label": "minifyhtml()"
+    },
+    {
+      "label": "copyDirRecursive()",
+      "file_type": "code",
+      "source_file": "build.js",
+      "source_location": "L111",
+      "id": "lidphoneapp_build_copydirrecursive",
+      "community": 7,
+      "norm_label": "copydirrecursive()"
+    },
+    {
+      "label": "check-fix-status.js",
+      "file_type": "code",
+      "source_file": "check-fix-status.js",
+      "source_location": "L1",
+      "id": "check_fix_status_js",
+      "community": 15,
+      "norm_label": "check-fix-status.js"
+    },
+    {
+      "label": "check-fixes-v2.js",
+      "file_type": "code",
+      "source_file": "check-fixes-v2.js",
+      "source_location": "L1",
+      "id": "check_fixes_v2_js",
+      "community": 16,
+      "norm_label": "check-fixes-v2.js"
+    },
+    {
+      "label": "questions.js",
+      "file_type": "code",
+      "source_file": "questions.js",
+      "source_location": "L1",
+      "id": "questions_js",
+      "community": 17,
+      "norm_label": "questions.js"
+    },
+    {
+      "label": "app.js",
+      "file_type": "code",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L1",
+      "id": "android_app_src_main_assets_www_app_js",
+      "community": 1,
+      "norm_label": "app.js"
+    },
+    {
+      "label": "FlashcardApp",
+      "file_type": "code",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L56",
+      "id": "www_app_flashcardapp",
+      "community": 1,
+      "norm_label": "flashcardapp"
+    },
+    {
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L57",
+      "id": "www_app_flashcardapp_constructor",
+      "community": 9,
+      "norm_label": ".constructor()"
+    },
+    {
+      "label": ".init()",
+      "file_type": "code",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L67",
+      "id": "www_app_flashcardapp_init",
+      "community": 9,
+      "norm_label": ".init()"
+    },
+    {
+      "label": ".setLanguage()",
+      "file_type": "code",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L70",
+      "id": "www_app_flashcardapp_setlanguage",
+      "community": 5,
+      "norm_label": ".setlanguage()"
+    },
+    {
+      "label": ".getTranslation()",
+      "file_type": "code",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L75",
+      "id": "www_app_flashcardapp_gettranslation",
+      "community": 6,
+      "norm_label": ".gettranslation()"
+    },
+    {
+      "label": ".getQuestionText()",
+      "file_type": "code",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L78",
+      "id": "www_app_flashcardapp_getquestiontext",
+      "community": 1,
+      "norm_label": ".getquestiontext()"
+    },
+    {
+      "label": ".getAnswerText()",
+      "file_type": "code",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L86",
+      "id": "www_app_flashcardapp_getanswertext",
+      "community": 1,
+      "norm_label": ".getanswertext()"
+    },
+    {
+      "label": ".shuffleArray()",
+      "file_type": "code",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L94",
+      "id": "www_app_flashcardapp_shufflearray",
+      "community": 1,
+      "norm_label": ".shufflearray()"
+    },
+    {
+      "label": ".selectState()",
+      "file_type": "code",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L102",
+      "id": "www_app_flashcardapp_selectstate",
+      "community": 1,
+      "norm_label": ".selectstate()"
+    },
+    {
+      "label": ".selectAnswer()",
+      "file_type": "code",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L118",
+      "id": "www_app_flashcardapp_selectanswer",
+      "community": 6,
+      "norm_label": ".selectanswer()"
+    },
+    {
+      "label": ".nextQuestion()",
+      "file_type": "code",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L130",
+      "id": "www_app_flashcardapp_nextquestion",
+      "community": 6,
+      "norm_label": ".nextquestion()"
+    },
+    {
+      "label": ".renderAdBreak()",
+      "file_type": "code",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L139",
+      "id": "www_app_flashcardapp_renderadbreak",
+      "community": 5,
+      "norm_label": ".renderadbreak()"
+    },
+    {
+      "label": ".dismissAdBreak()",
+      "file_type": "code",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L182",
+      "id": "www_app_flashcardapp_dismissadbreak",
+      "community": 5,
+      "norm_label": ".dismissadbreak()"
+    },
+    {
+      "label": ".restart()",
+      "file_type": "code",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L185",
+      "id": "www_app_flashcardapp_restart",
+      "community": 5,
+      "norm_label": ".restart()"
+    },
+    {
+      "label": ".render()",
+      "file_type": "code",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L194",
+      "id": "www_app_flashcardapp_render",
+      "community": 5,
+      "norm_label": ".render()"
+    },
+    {
+      "label": ".renderLanguagePill()",
+      "file_type": "code",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L206",
+      "id": "www_app_flashcardapp_renderlanguagepill",
+      "community": 1,
+      "norm_label": ".renderlanguagepill()"
+    },
+    {
+      "label": ".renderStateSelection()",
+      "file_type": "code",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L214",
+      "id": "www_app_flashcardapp_renderstateselection",
+      "community": 6,
+      "norm_label": ".renderstateselection()"
+    },
+    {
+      "label": ".renderQuestionCard()",
+      "file_type": "code",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L254",
+      "id": "www_app_flashcardapp_renderquestioncard",
+      "community": 1,
+      "norm_label": ".renderquestioncard()"
+    },
+    {
+      "label": ".renderFeedbackDrawer()",
+      "file_type": "code",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L331",
+      "id": "www_app_flashcardapp_renderfeedbackdrawer",
+      "community": 6,
+      "norm_label": ".renderfeedbackdrawer()"
+    },
+    {
+      "label": ".renderComplete()",
+      "file_type": "code",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L403",
+      "id": "www_app_flashcardapp_rendercomplete",
+      "community": 6,
+      "norm_label": ".rendercomplete()"
+    },
+    {
+      "label": ".attachEventListeners()",
+      "file_type": "code",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L452",
+      "id": "www_app_flashcardapp_attacheventlisteners",
+      "community": 5,
+      "norm_label": ".attacheventlisteners()"
+    },
+    {
+      "label": "questions.js",
+      "file_type": "code",
+      "source_file": "android/app/src/main/assets/www/questions.js",
+      "source_location": "L1",
+      "id": "android_app_src_main_assets_www_questions_js",
+      "community": 18,
+      "norm_label": "questions.js"
+    },
+    {
+      "label": "MainActivity.java",
+      "file_type": "code",
+      "source_file": "android/app/src/main/java/com/candicetinamartins/lebenindeutschlandtrainer/MainActivity.java",
+      "source_location": "L1",
+      "id": "android_app_src_main_java_com_candicetinamartins_lebenindeutschlandtrainer_mainactivity_java",
+      "community": 2,
+      "norm_label": "mainactivity.java"
+    },
+    {
+      "label": "MainActivity",
+      "file_type": "code",
+      "source_file": "android/app/src/main/java/com/candicetinamartins/lebenindeutschlandtrainer/MainActivity.java",
+      "source_location": "L17",
+      "id": "lebenindeutschlandtrainer_mainactivity_mainactivity",
+      "community": 2,
+      "norm_label": "mainactivity"
+    },
+    {
+      "label": "Activity",
+      "file_type": "code",
+      "source_file": "android/app/src/main/java/com/candicetinamartins/lebenindeutschlandtrainer/MainActivity.java",
+      "source_location": "",
+      "id": "activity",
+      "community": 2,
+      "norm_label": "activity"
+    },
+    {
+      "label": ".onCreate()",
+      "file_type": "code",
+      "source_file": "android/app/src/main/java/com/candicetinamartins/lebenindeutschlandtrainer/MainActivity.java",
+      "source_location": "L21",
+      "id": "lebenindeutschlandtrainer_mainactivity_mainactivity_oncreate",
+      "community": 2,
+      "norm_label": ".oncreate()"
+    },
+    {
+      "label": ".onPause()",
+      "file_type": "code",
+      "source_file": "android/app/src/main/java/com/candicetinamartins/lebenindeutschlandtrainer/MainActivity.java",
+      "source_location": "L68",
+      "id": "lebenindeutschlandtrainer_mainactivity_mainactivity_onpause",
+      "community": 2,
+      "norm_label": ".onpause()"
+    },
+    {
+      "label": ".onResume()",
+      "file_type": "code",
+      "source_file": "android/app/src/main/java/com/candicetinamartins/lebenindeutschlandtrainer/MainActivity.java",
+      "source_location": "L76",
+      "id": "lebenindeutschlandtrainer_mainactivity_mainactivity_onresume",
+      "community": 2,
+      "norm_label": ".onresume()"
+    },
+    {
+      "label": ".onDestroy()",
+      "file_type": "code",
+      "source_file": "android/app/src/main/java/com/candicetinamartins/lebenindeutschlandtrainer/MainActivity.java",
+      "source_location": "L84",
+      "id": "lebenindeutschlandtrainer_mainactivity_mainactivity_ondestroy",
+      "community": 2,
+      "norm_label": ".ondestroy()"
+    },
+    {
+      "label": ".onBackPressed()",
+      "file_type": "code",
+      "source_file": "android/app/src/main/java/com/candicetinamartins/lebenindeutschlandtrainer/MainActivity.java",
+      "source_location": "L92",
+      "id": "lebenindeutschlandtrainer_mainactivity_mainactivity_onbackpressed",
+      "community": 2,
+      "norm_label": ".onbackpressed()"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L59",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "lidphoneapp_app_flashcardapp"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L60",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lidphoneapp_app_flashcardapp",
+      "target": "lidphoneapp_app_flashcardapp_constructor"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L71",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lidphoneapp_app_flashcardapp",
+      "target": "lidphoneapp_app_flashcardapp_init"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L75",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lidphoneapp_app_flashcardapp",
+      "target": "lidphoneapp_app_flashcardapp_setlanguage"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L81",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lidphoneapp_app_flashcardapp",
+      "target": "lidphoneapp_app_flashcardapp_gettranslation"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L85",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lidphoneapp_app_flashcardapp",
+      "target": "lidphoneapp_app_flashcardapp_getquestiontext"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L94",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lidphoneapp_app_flashcardapp",
+      "target": "lidphoneapp_app_flashcardapp_getanswertext"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L103",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lidphoneapp_app_flashcardapp",
+      "target": "lidphoneapp_app_flashcardapp_shufflearray"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L112",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lidphoneapp_app_flashcardapp",
+      "target": "lidphoneapp_app_flashcardapp_selectstate"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L131",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lidphoneapp_app_flashcardapp",
+      "target": "lidphoneapp_app_flashcardapp_selectanswer"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L148",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lidphoneapp_app_flashcardapp",
+      "target": "lidphoneapp_app_flashcardapp_nextquestion"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L158",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lidphoneapp_app_flashcardapp",
+      "target": "lidphoneapp_app_flashcardapp_renderadbreak"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L210",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lidphoneapp_app_flashcardapp",
+      "target": "lidphoneapp_app_flashcardapp_dismissadbreak"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L214",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lidphoneapp_app_flashcardapp",
+      "target": "lidphoneapp_app_flashcardapp_restart"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L224",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lidphoneapp_app_flashcardapp",
+      "target": "lidphoneapp_app_flashcardapp_render"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L239",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lidphoneapp_app_flashcardapp",
+      "target": "lidphoneapp_app_flashcardapp_renderlanguagepill"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L249",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lidphoneapp_app_flashcardapp",
+      "target": "lidphoneapp_app_flashcardapp_renderstateselection"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L296",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lidphoneapp_app_flashcardapp",
+      "target": "lidphoneapp_app_flashcardapp_renderquestioncard"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L385",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lidphoneapp_app_flashcardapp",
+      "target": "lidphoneapp_app_flashcardapp_renderfeedbackdrawer"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L477",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lidphoneapp_app_flashcardapp",
+      "target": "lidphoneapp_app_flashcardapp_rendercomplete"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L529",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lidphoneapp_app_flashcardapp",
+      "target": "lidphoneapp_app_flashcardapp_attacheventlisteners"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L68",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lidphoneapp_app_flashcardapp_constructor",
+      "target": "lidphoneapp_app_flashcardapp_init"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L72",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lidphoneapp_app_flashcardapp_init",
+      "target": "lidphoneapp_app_flashcardapp_render"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L78",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lidphoneapp_app_flashcardapp_setlanguage",
+      "target": "lidphoneapp_app_flashcardapp_render"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L270",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lidphoneapp_app_flashcardapp_renderstateselection",
+      "target": "lidphoneapp_app_flashcardapp_gettranslation"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L428",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lidphoneapp_app_flashcardapp_renderfeedbackdrawer",
+      "target": "lidphoneapp_app_flashcardapp_gettranslation"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L491",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lidphoneapp_app_flashcardapp_rendercomplete",
+      "target": "lidphoneapp_app_flashcardapp_gettranslation"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L301",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lidphoneapp_app_flashcardapp_renderquestioncard",
+      "target": "lidphoneapp_app_flashcardapp_getquestiontext"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L115",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lidphoneapp_app_flashcardapp_selectstate",
+      "target": "lidphoneapp_app_flashcardapp_shufflearray"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L128",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lidphoneapp_app_flashcardapp_selectstate",
+      "target": "lidphoneapp_app_flashcardapp_render"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L145",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lidphoneapp_app_flashcardapp_selectanswer",
+      "target": "lidphoneapp_app_flashcardapp_renderfeedbackdrawer"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L152",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lidphoneapp_app_flashcardapp_nextquestion",
+      "target": "lidphoneapp_app_flashcardapp_rendercomplete"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L154",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lidphoneapp_app_flashcardapp_nextquestion",
+      "target": "lidphoneapp_app_flashcardapp_render"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L160",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lidphoneapp_app_flashcardapp_renderadbreak",
+      "target": "lidphoneapp_app_flashcardapp_render"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L211",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lidphoneapp_app_flashcardapp_dismissadbreak",
+      "target": "lidphoneapp_app_flashcardapp_render"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L221",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lidphoneapp_app_flashcardapp_restart",
+      "target": "lidphoneapp_app_flashcardapp_render"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L227",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lidphoneapp_app_flashcardapp_render",
+      "target": "lidphoneapp_app_flashcardapp_renderstateselection"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L229",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lidphoneapp_app_flashcardapp_render",
+      "target": "lidphoneapp_app_flashcardapp_renderquestioncard"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L235",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lidphoneapp_app_flashcardapp_render",
+      "target": "lidphoneapp_app_flashcardapp_attacheventlisteners"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "build.js",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "build_js",
+      "target": "lidphoneapp_build_processjs"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "build.js",
+      "source_location": "L49",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "build_js",
+      "target": "lidphoneapp_build_minifyhtml"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "build.js",
+      "source_location": "L111",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "build_js",
+      "target": "lidphoneapp_build_copydirrecursive"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L56",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "android_app_src_main_assets_www_app_js",
+      "target": "www_app_flashcardapp"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L57",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "www_app_flashcardapp",
+      "target": "www_app_flashcardapp_constructor"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L67",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "www_app_flashcardapp",
+      "target": "www_app_flashcardapp_init"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L70",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "www_app_flashcardapp",
+      "target": "www_app_flashcardapp_setlanguage"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L75",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "www_app_flashcardapp",
+      "target": "www_app_flashcardapp_gettranslation"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L78",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "www_app_flashcardapp",
+      "target": "www_app_flashcardapp_getquestiontext"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L86",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "www_app_flashcardapp",
+      "target": "www_app_flashcardapp_getanswertext"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L94",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "www_app_flashcardapp",
+      "target": "www_app_flashcardapp_shufflearray"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L102",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "www_app_flashcardapp",
+      "target": "www_app_flashcardapp_selectstate"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L118",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "www_app_flashcardapp",
+      "target": "www_app_flashcardapp_selectanswer"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L130",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "www_app_flashcardapp",
+      "target": "www_app_flashcardapp_nextquestion"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L139",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "www_app_flashcardapp",
+      "target": "www_app_flashcardapp_renderadbreak"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L182",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "www_app_flashcardapp",
+      "target": "www_app_flashcardapp_dismissadbreak"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L185",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "www_app_flashcardapp",
+      "target": "www_app_flashcardapp_restart"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L194",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "www_app_flashcardapp",
+      "target": "www_app_flashcardapp_render"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L206",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "www_app_flashcardapp",
+      "target": "www_app_flashcardapp_renderlanguagepill"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L214",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "www_app_flashcardapp",
+      "target": "www_app_flashcardapp_renderstateselection"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L254",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "www_app_flashcardapp",
+      "target": "www_app_flashcardapp_renderquestioncard"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L331",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "www_app_flashcardapp",
+      "target": "www_app_flashcardapp_renderfeedbackdrawer"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L403",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "www_app_flashcardapp",
+      "target": "www_app_flashcardapp_rendercomplete"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L452",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "www_app_flashcardapp",
+      "target": "www_app_flashcardapp_attacheventlisteners"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L65",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "www_app_flashcardapp_constructor",
+      "target": "www_app_flashcardapp_init"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L68",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "www_app_flashcardapp_init",
+      "target": "www_app_flashcardapp_render"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L73",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "www_app_flashcardapp_setlanguage",
+      "target": "www_app_flashcardapp_render"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L232",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "www_app_flashcardapp_renderstateselection",
+      "target": "www_app_flashcardapp_gettranslation"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L366",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "www_app_flashcardapp_renderfeedbackdrawer",
+      "target": "www_app_flashcardapp_gettranslation"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L416",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "www_app_flashcardapp_rendercomplete",
+      "target": "www_app_flashcardapp_gettranslation"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L257",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "www_app_flashcardapp_renderquestioncard",
+      "target": "www_app_flashcardapp_getquestiontext"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L105",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "www_app_flashcardapp_selectstate",
+      "target": "www_app_flashcardapp_shufflearray"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L116",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "www_app_flashcardapp_selectstate",
+      "target": "www_app_flashcardapp_render"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L128",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "www_app_flashcardapp_selectanswer",
+      "target": "www_app_flashcardapp_renderfeedbackdrawer"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L134",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "www_app_flashcardapp_nextquestion",
+      "target": "www_app_flashcardapp_rendercomplete"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L136",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "www_app_flashcardapp_nextquestion",
+      "target": "www_app_flashcardapp_render"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L141",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "www_app_flashcardapp_renderadbreak",
+      "target": "www_app_flashcardapp_render"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L183",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "www_app_flashcardapp_dismissadbreak",
+      "target": "www_app_flashcardapp_render"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L192",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "www_app_flashcardapp_restart",
+      "target": "www_app_flashcardapp_render"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L197",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "www_app_flashcardapp_render",
+      "target": "www_app_flashcardapp_renderstateselection"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L199",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "www_app_flashcardapp_render",
+      "target": "www_app_flashcardapp_renderquestioncard"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L204",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "www_app_flashcardapp_render",
+      "target": "www_app_flashcardapp_attacheventlisteners"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/java/com/candicetinamartins/lebenindeutschlandtrainer/MainActivity.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "android_app_src_main_java_com_candicetinamartins_lebenindeutschlandtrainer_mainactivity_java",
+      "target": "activity"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/java/com/candicetinamartins/lebenindeutschlandtrainer/MainActivity.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "android_app_src_main_java_com_candicetinamartins_lebenindeutschlandtrainer_mainactivity_java",
+      "target": "lebenindeutschlandtrainer_mainactivity_mainactivity"
+    },
+    {
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/java/com/candicetinamartins/lebenindeutschlandtrainer/MainActivity.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lebenindeutschlandtrainer_mainactivity_mainactivity",
+      "target": "activity"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/java/com/candicetinamartins/lebenindeutschlandtrainer/MainActivity.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lebenindeutschlandtrainer_mainactivity_mainactivity",
+      "target": "lebenindeutschlandtrainer_mainactivity_mainactivity_oncreate"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/java/com/candicetinamartins/lebenindeutschlandtrainer/MainActivity.java",
+      "source_location": "L68",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lebenindeutschlandtrainer_mainactivity_mainactivity",
+      "target": "lebenindeutschlandtrainer_mainactivity_mainactivity_onpause"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/java/com/candicetinamartins/lebenindeutschlandtrainer/MainActivity.java",
+      "source_location": "L76",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lebenindeutschlandtrainer_mainactivity_mainactivity",
+      "target": "lebenindeutschlandtrainer_mainactivity_mainactivity_onresume"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/java/com/candicetinamartins/lebenindeutschlandtrainer/MainActivity.java",
+      "source_location": "L84",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lebenindeutschlandtrainer_mainactivity_mainactivity",
+      "target": "lebenindeutschlandtrainer_mainactivity_mainactivity_ondestroy"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/java/com/candicetinamartins/lebenindeutschlandtrainer/MainActivity.java",
+      "source_location": "L36",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lebenindeutschlandtrainer_mainactivity_mainactivity",
+      "target": "lebenindeutschlandtrainer_mainactivity_mainactivity_onbackpressed"
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "fdd8a7d5e4dec57d99ca564c7e6a9eb88e470bca"
+}

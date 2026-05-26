@@ -8,39 +8,7 @@
     
     <!-- Google AdSense Verification -->
     <meta name="google-adsense-account" content="ca-pub-3677433573599533">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3677433573599533" crossorigin="anonymous"></script>
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700;900&display=swap" rel="stylesheet">
-    
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    fontFamily: {
-                        sans: ['"Space Grotesk"', 'sans-serif'],
-                    },
-                    boxShadow: {
-                        'neo': '4px 4px 0px 0px rgba(0,0,0,1)',
-                        'neo-sm': '2px 2px 0px 0px rgba(0,0,0,1)',
-                        'neo-pressed': '0px 0px 0px 0px rgba(0,0,0,1)',
-                    },
-                    colors: {
-                        'ger-gold': '#FFCC00',
-                        'ger-red': '#DD0000',
-                        'ger-black': '#1a1a1a',
-                        'paper': '#fdfbf7',
-                        'surface': '#ffffff'
-                    },
-                    screens: {
-                        'xs': '375px',
-                    }
-                }
-            }
-        }
-    </script>
+    <link rel="stylesheet" href="styles.css">
     <style>
         body {
             background-color: #f3f4f6;
@@ -125,8 +93,9 @@
 
     <!-- Consent Manager + Conditional Ad Loading -->
     <script>
-        const ADSENSE_CLIENT_ID = 'ca-pub-3677433573599533'; // Replace with your real publisher ID
+        const ADSENSE_CLIENT_ID = 'ca-pub-3677433573599533';
         const CONSENT_EXPIRY_DAYS = 365;
+        const IS_ANDROID_APP = /\bLIDTrainerAndroid\b/.test(navigator.userAgent);
 
         function getAdConsent() {
             const consent = localStorage.getItem('adConsent');
@@ -168,6 +137,7 @@
         }
 
         function loadAdSense() {
+            if (IS_ANDROID_APP) return;
             if (document.getElementById('adsense-script')) return;
             const s = document.createElement('script');
             s.id = 'adsense-script';
@@ -187,6 +157,7 @@
 
         // Global: check if user has accepted ads
         function hasAdConsent() {
+            if (IS_ANDROID_APP) return false;
             return localStorage.getItem('adConsent') === 'accepted';
         }
 
@@ -197,28 +168,34 @@
 
         // On page load, check consent
         document.addEventListener('DOMContentLoaded', function() {
+            if (IS_ANDROID_APP) {
+                localStorage.setItem('adConsent', 'rejected');
+                try { updateGoogleConsent(false); } catch(e) {}
+                return;
+            }
+
             const consent = getAdConsent();
 
             if (consent === 'accepted') {
-                updateGoogleConsent(true);
-                loadAdSense();
+                try { updateGoogleConsent(true); } catch(e) {}
+                try { loadAdSense(); } catch(e) {}
             } else if (consent === 'rejected') {
-                updateGoogleConsent(false);
+                try { updateGoogleConsent(false); } catch(e) {}
             } else {
                 // null — no decision yet
                 showConsentBanner();
             }
 
             document.getElementById('consent-accept').addEventListener('click', function() {
-                setAdConsent('accepted');
-                updateGoogleConsent(true);
+                try { setAdConsent('accepted'); } catch(e) {}
+                try { updateGoogleConsent(true); } catch(e) {}
                 hideConsentBanner();
-                loadAdSense();
+                try { loadAdSense(); } catch(e) {}
             });
 
             document.getElementById('consent-reject').addEventListener('click', function() {
-                setAdConsent('rejected');
-                updateGoogleConsent(false);
+                try { setAdConsent('rejected'); } catch(e) {}
+                try { updateGoogleConsent(false); } catch(e) {}
                 hideConsentBanner();
             });
         });
