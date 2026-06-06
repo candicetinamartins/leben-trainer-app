@@ -14776,22 +14776,22 @@ const GENERAL_QUESTIONS = [
     },
     {
         "id": 206,
-        "questionDe": "206.",
+        "questionDe": "Woran erinnern die sogenannten „Stolpersteine“ in Deutschland?",
         "questionEn": "What do the so-called 'Stolpersteine' (stumbling stones) in Germany commemorate?",
         "answers": [
             {
-                "text": "Woran erinnern die sogenannten „Stolpersteine“ in Deutschland?",
-                "textEn": "Woran erinnern die sogenannten „Stolpersteine“ in Deutschland?",
+                "text": "an bekannte jüdische Musiker",
+                "textEn": "famous Jewish musicians",
                 "correct": false,
-                "textTr": "Almanya'daki sözde “tökezleyen engeller” bize neyi hatırlatıyor?",
-                "textHi": "जर्मनी में तथाकथित \"ठोकरें\" हमें क्या याद दिलाती हैं?",
-                "textMl": "ജർമ്മനിയിൽ \"ഇടർച്ചകൾ\" എന്ന് വിളിക്കപ്പെടുന്ന കാര്യങ്ങൾ നമ്മെ എന്താണ് ഓർമ്മിപ്പിക്കുന്നത്?",
-                "textTa": "ஜெர்மனியில் \"தடுமாற்றங்கள்\" என்று அழைக்கப்படுவது நமக்கு எதை நினைவூட்டுகிறது?",
-                "textTe": "జర్మనీలో \"స్టంబ్లింగ్ బ్లాక్స్\" అని పిలవబడేవి మనకు ఏమి గుర్తు చేస్తాయి?",
-                "textAr": "بماذا يذكرنا ما يسمى \"بالعثرات\" في ألمانيا؟",
-                "textZh": "德国的所谓“绊脚石”让我们想起了什么？",
-                "textFa": "به اصطلاح \"سنگهای\" در آلمان ما را به یاد چه چیزی می اندازد؟",
-                "textRu": "О чем напоминают нам так называемые «камни преткновения» в Германии?"
+                "textTr": "ünlü Yahudi müzisyenleri",
+                "textHi": "प्रसिद्ध यहूदी संगीतकारों को",
+                "textMl": "പ്രശസ്ത യഹൂദ സംഗീതജ്ഞരെ",
+                "textTa": "பிரபலமான யூத இசைக்கலைஞர்களை",
+                "textTe": "ప్రసిద్ధ యూదు సంగీతకారులను",
+                "textAr": "موسيقيين يهود مشهورين",
+                "textZh": "著名的犹太音乐家",
+                "textFa": "موسیقی‌دانان مشهور یهودی را",
+                "textRu": "известных еврейских музыкантов"
             },
             {
                 "text": "an berühmte deutsche Politikerinnen und Politiker",
@@ -14836,15 +14836,15 @@ const GENERAL_QUESTIONS = [
                 "textRu": "смертей в результате дорожно-транспортных происшествий"
             }
         ],
-        "questionTr": "206.",
-        "questionHi": "206.",
-        "questionMl": "206.",
-        "questionTa": "206.",
-        "questionTe": "206.",
-        "questionAr": "206.",
-        "questionZh": "206.",
-        "questionFa": "206.",
-        "questionRu": "206."
+        "questionTr": "Almanya'daki sözde 'Stolpersteine' (tökezleme taşları) neyi anmaktadır?",
+        "questionHi": "जर्मनी में तथाकथित 'स्टोल्परश्टाइने' (ठोकर पत्थर) किसकी याद दिलाते हैं?",
+        "questionMl": "ജർമ്മനിയിലെ 'സ്റ്റോൾപർസ്റ്റൈനെ' (തടസ്സക്കല്ലുകൾ) എന്തിനെ അനുസ്മരിപ്പിക്കുന്നു?",
+        "questionTa": "ஜெர்மனியில் உள்ள 'ஸ்டோல்பர்ஸ்டைனே' (தடுமாறும் கற்கள்) எதை நினைவுகூருகின்றன?",
+        "questionTe": "జర్మనీలోని 'స్టోల్పర్‌స్టైనే' (తడబడే రాళ్లు) దేనిని స్మరింపజేస్తాయి?",
+        "questionAr": "بماذا تذكّرنا ما يُعرف بـ \"شتولبرشتاينه\" (أحجار التعثر) في ألمانيا؟",
+        "questionZh": "德国所谓的“Stolpersteine”（绊脚石纪念石）是在纪念什么？",
+        "questionFa": "اصطلاحاً «اشتولپرشتاین» (سنگ‌های یادبود) در آلمان یادآور چه چیزی هستند؟",
+        "questionRu": "О чём напоминают так называемые «Штольперштайне» (камни преткновения) в Германии?"
     },
     {
         "id": 207,
