@@ -45,7 +45,7 @@
       "source_file": "app.js",
       "source_location": "L75",
       "id": "lidphoneapp_app_flashcardapp_setlanguage",
-      "community": 3,
+      "community": 0,
       "norm_label": ".setlanguage()"
     },
     {
@@ -54,7 +54,7 @@
       "source_file": "app.js",
       "source_location": "L81",
       "id": "lidphoneapp_app_flashcardapp_gettranslation",
-      "community": 4,
+      "community": 0,
       "norm_label": ".gettranslation()"
     },
     {
@@ -81,7 +81,7 @@
       "source_file": "app.js",
       "source_location": "L103",
       "id": "lidphoneapp_app_flashcardapp_shufflearray",
-      "community": 8,
+      "community": 0,
       "norm_label": ".shufflearray()"
     },
     {
@@ -90,7 +90,7 @@
       "source_file": "app.js",
       "source_location": "L112",
       "id": "lidphoneapp_app_flashcardapp_selectstate",
-      "community": 8,
+      "community": 0,
       "norm_label": ".selectstate()"
     },
     {
@@ -99,7 +99,7 @@
       "source_file": "app.js",
       "source_location": "L131",
       "id": "lidphoneapp_app_flashcardapp_selectanswer",
-      "community": 4,
+      "community": 0,
       "norm_label": ".selectanswer()"
     },
     {
@@ -108,7 +108,7 @@
       "source_file": "app.js",
       "source_location": "L148",
       "id": "lidphoneapp_app_flashcardapp_nextquestion",
-      "community": 4,
+      "community": 0,
       "norm_label": ".nextquestion()"
     },
     {
@@ -117,7 +117,7 @@
       "source_file": "app.js",
       "source_location": "L158",
       "id": "lidphoneapp_app_flashcardapp_renderadbreak",
-      "community": 3,
+      "community": 0,
       "norm_label": ".renderadbreak()"
     },
     {
@@ -126,7 +126,7 @@
       "source_file": "app.js",
       "source_location": "L210",
       "id": "lidphoneapp_app_flashcardapp_dismissadbreak",
-      "community": 3,
+      "community": 0,
       "norm_label": ".dismissadbreak()"
     },
     {
@@ -135,7 +135,7 @@
       "source_file": "app.js",
       "source_location": "L214",
       "id": "lidphoneapp_app_flashcardapp_restart",
-      "community": 3,
+      "community": 0,
       "norm_label": ".restart()"
     },
     {
@@ -144,7 +144,7 @@
       "source_file": "app.js",
       "source_location": "L224",
       "id": "lidphoneapp_app_flashcardapp_render",
-      "community": 3,
+      "community": 0,
       "norm_label": ".render()"
     },
     {
@@ -162,7 +162,7 @@
       "source_file": "app.js",
       "source_location": "L249",
       "id": "lidphoneapp_app_flashcardapp_renderstateselection",
-      "community": 4,
+      "community": 0,
       "norm_label": ".renderstateselection()"
     },
     {
@@ -180,7 +180,7 @@
       "source_file": "app.js",
       "source_location": "L385",
       "id": "lidphoneapp_app_flashcardapp_renderfeedbackdrawer",
-      "community": 4,
+      "community": 0,
       "norm_label": ".renderfeedbackdrawer()"
     },
     {
@@ -189,7 +189,7 @@
       "source_file": "app.js",
       "source_location": "L477",
       "id": "lidphoneapp_app_flashcardapp_rendercomplete",
-      "community": 4,
+      "community": 0,
       "norm_label": ".rendercomplete()"
     },
     {
@@ -198,7 +198,7 @@
       "source_file": "app.js",
       "source_location": "L529",
       "id": "lidphoneapp_app_flashcardapp_attacheventlisteners",
-      "community": 3,
+      "community": 0,
       "norm_label": ".attacheventlisteners()"
     },
     {
@@ -206,8 +206,8 @@
       "file_type": "code",
       "source_file": "apply-audit-fixes-v2.js",
       "source_location": "L1",
-      "id": "apply_audit_fixes_v2_js",
-      "community": 10,
+      "id": "c_users_jaiso_onedrive_desktop_leben_in_deustchland_lidphoneapp_apply_audit_fixes_v2_js",
+      "community": 6,
       "norm_label": "apply-audit-fixes-v2.js"
     },
     {
@@ -215,8 +215,8 @@
       "file_type": "code",
       "source_file": "apply-audit-fixes-v3.js",
       "source_location": "L1",
-      "id": "apply_audit_fixes_v3_js",
-      "community": 11,
+      "id": "c_users_jaiso_onedrive_desktop_leben_in_deustchland_lidphoneapp_apply_audit_fixes_v3_js",
+      "community": 7,
       "norm_label": "apply-audit-fixes-v3.js"
     },
     {
@@ -224,8 +224,8 @@
       "file_type": "code",
       "source_file": "apply-audit-fixes-v4.js",
       "source_location": "L1",
-      "id": "apply_audit_fixes_v4_js",
-      "community": 12,
+      "id": "c_users_jaiso_onedrive_desktop_leben_in_deustchland_lidphoneapp_apply_audit_fixes_v4_js",
+      "community": 8,
       "norm_label": "apply-audit-fixes-v4.js"
     },
     {
@@ -233,8 +233,8 @@
       "file_type": "code",
       "source_file": "apply-audit-fixes-v5.js",
       "source_location": "L1",
-      "id": "apply_audit_fixes_v5_js",
-      "community": 13,
+      "id": "c_users_jaiso_onedrive_desktop_leben_in_deustchland_lidphoneapp_apply_audit_fixes_v5_js",
+      "community": 9,
       "norm_label": "apply-audit-fixes-v5.js"
     },
     {
@@ -242,8 +242,8 @@
       "file_type": "code",
       "source_file": "apply-audit-fixes.js",
       "source_location": "L1",
-      "id": "apply_audit_fixes_js",
-      "community": 14,
+      "id": "c_users_jaiso_onedrive_desktop_leben_in_deustchland_lidphoneapp_apply_audit_fixes_js",
+      "community": 10,
       "norm_label": "apply-audit-fixes.js"
     },
     {
@@ -252,7 +252,7 @@
       "source_file": "build.js",
       "source_location": "L1",
       "id": "build_js",
-      "community": 7,
+      "community": 5,
       "norm_label": "build.js"
     },
     {
@@ -261,7 +261,7 @@
       "source_file": "build.js",
       "source_location": "L5",
       "id": "lidphoneapp_build_processjs",
-      "community": 7,
+      "community": 5,
       "norm_label": "processjs()"
     },
     {
@@ -270,7 +270,7 @@
       "source_file": "build.js",
       "source_location": "L49",
       "id": "lidphoneapp_build_minifyhtml",
-      "community": 7,
+      "community": 5,
       "norm_label": "minifyhtml()"
     },
     {
@@ -279,16 +279,25 @@
       "source_file": "build.js",
       "source_location": "L111",
       "id": "lidphoneapp_build_copydirrecursive",
-      "community": 7,
+      "community": 5,
       "norm_label": "copydirrecursive()"
+    },
+    {
+      "label": "check-changed.js",
+      "file_type": "code",
+      "source_file": "check-changed.js",
+      "source_location": "L1",
+      "id": "check_changed_js",
+      "community": 11,
+      "norm_label": "check-changed.js"
     },
     {
       "label": "check-fix-status.js",
       "file_type": "code",
       "source_file": "check-fix-status.js",
       "source_location": "L1",
-      "id": "check_fix_status_js",
-      "community": 15,
+      "id": "c_users_jaiso_onedrive_desktop_leben_in_deustchland_lidphoneapp_check_fix_status_js",
+      "community": 12,
       "norm_label": "check-fix-status.js"
     },
     {
@@ -296,9 +305,36 @@
       "file_type": "code",
       "source_file": "check-fixes-v2.js",
       "source_location": "L1",
-      "id": "check_fixes_v2_js",
-      "community": 16,
+      "id": "c_users_jaiso_onedrive_desktop_leben_in_deustchland_lidphoneapp_check_fixes_v2_js",
+      "community": 13,
       "norm_label": "check-fixes-v2.js"
+    },
+    {
+      "label": "check-q-content.js",
+      "file_type": "code",
+      "source_file": "check-q-content.js",
+      "source_location": "L1",
+      "id": "check_q_content_js",
+      "community": 14,
+      "norm_label": "check-q-content.js"
+    },
+    {
+      "label": "fix-consent-v2.js",
+      "file_type": "code",
+      "source_file": "fix-consent-v2.js",
+      "source_location": "L1",
+      "id": "fix_consent_v2_js",
+      "community": 15,
+      "norm_label": "fix-consent-v2.js"
+    },
+    {
+      "label": "fix-consent.js",
+      "file_type": "code",
+      "source_file": "fix-consent.js",
+      "source_location": "L1",
+      "id": "fix_consent_js",
+      "community": 16,
+      "norm_label": "fix-consent.js"
     },
     {
       "label": "questions.js",
@@ -310,210 +346,228 @@
       "norm_label": "questions.js"
     },
     {
+      "label": "validate-q.js",
+      "file_type": "code",
+      "source_file": "validate-q.js",
+      "source_location": "L1",
+      "id": "validate_q_js",
+      "community": 18,
+      "norm_label": "validate-q.js"
+    },
+    {
+      "label": "validate-questions.js",
+      "file_type": "code",
+      "source_file": "validate-questions.js",
+      "source_location": "L1",
+      "id": "validate_questions_js",
+      "community": 19,
+      "norm_label": "validate-questions.js"
+    },
+    {
       "label": "app.js",
       "file_type": "code",
-      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_file": "ios/App/App/public/app.js",
       "source_location": "L1",
-      "id": "android_app_src_main_assets_www_app_js",
+      "id": "ios_app_app_public_app_js",
       "community": 1,
       "norm_label": "app.js"
     },
     {
       "label": "FlashcardApp",
       "file_type": "code",
-      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_file": "ios/App/App/public/app.js",
       "source_location": "L56",
-      "id": "www_app_flashcardapp",
+      "id": "public_app_flashcardapp",
       "community": 1,
       "norm_label": "flashcardapp"
     },
     {
       "label": ".constructor()",
       "file_type": "code",
-      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_file": "ios/App/App/public/app.js",
       "source_location": "L57",
-      "id": "www_app_flashcardapp_constructor",
-      "community": 9,
+      "id": "public_app_flashcardapp_constructor",
+      "community": 1,
       "norm_label": ".constructor()"
     },
     {
       "label": ".init()",
       "file_type": "code",
-      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_file": "ios/App/App/public/app.js",
       "source_location": "L67",
-      "id": "www_app_flashcardapp_init",
-      "community": 9,
+      "id": "public_app_flashcardapp_init",
+      "community": 1,
       "norm_label": ".init()"
     },
     {
       "label": ".setLanguage()",
       "file_type": "code",
-      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_file": "ios/App/App/public/app.js",
       "source_location": "L70",
-      "id": "www_app_flashcardapp_setlanguage",
-      "community": 5,
+      "id": "public_app_flashcardapp_setlanguage",
+      "community": 1,
       "norm_label": ".setlanguage()"
     },
     {
       "label": ".getTranslation()",
       "file_type": "code",
-      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_file": "ios/App/App/public/app.js",
       "source_location": "L75",
-      "id": "www_app_flashcardapp_gettranslation",
-      "community": 6,
+      "id": "public_app_flashcardapp_gettranslation",
+      "community": 1,
       "norm_label": ".gettranslation()"
     },
     {
       "label": ".getQuestionText()",
       "file_type": "code",
-      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_file": "ios/App/App/public/app.js",
       "source_location": "L78",
-      "id": "www_app_flashcardapp_getquestiontext",
+      "id": "public_app_flashcardapp_getquestiontext",
       "community": 1,
       "norm_label": ".getquestiontext()"
     },
     {
       "label": ".getAnswerText()",
       "file_type": "code",
-      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_file": "ios/App/App/public/app.js",
       "source_location": "L86",
-      "id": "www_app_flashcardapp_getanswertext",
+      "id": "public_app_flashcardapp_getanswertext",
       "community": 1,
       "norm_label": ".getanswertext()"
     },
     {
       "label": ".shuffleArray()",
       "file_type": "code",
-      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_file": "ios/App/App/public/app.js",
       "source_location": "L94",
-      "id": "www_app_flashcardapp_shufflearray",
+      "id": "public_app_flashcardapp_shufflearray",
       "community": 1,
       "norm_label": ".shufflearray()"
     },
     {
       "label": ".selectState()",
       "file_type": "code",
-      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_file": "ios/App/App/public/app.js",
       "source_location": "L102",
-      "id": "www_app_flashcardapp_selectstate",
+      "id": "public_app_flashcardapp_selectstate",
       "community": 1,
       "norm_label": ".selectstate()"
     },
     {
       "label": ".selectAnswer()",
       "file_type": "code",
-      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_file": "ios/App/App/public/app.js",
       "source_location": "L118",
-      "id": "www_app_flashcardapp_selectanswer",
-      "community": 6,
+      "id": "public_app_flashcardapp_selectanswer",
+      "community": 1,
       "norm_label": ".selectanswer()"
     },
     {
       "label": ".nextQuestion()",
       "file_type": "code",
-      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_file": "ios/App/App/public/app.js",
       "source_location": "L130",
-      "id": "www_app_flashcardapp_nextquestion",
-      "community": 6,
+      "id": "public_app_flashcardapp_nextquestion",
+      "community": 1,
       "norm_label": ".nextquestion()"
     },
     {
       "label": ".renderAdBreak()",
       "file_type": "code",
-      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_file": "ios/App/App/public/app.js",
       "source_location": "L139",
-      "id": "www_app_flashcardapp_renderadbreak",
-      "community": 5,
+      "id": "public_app_flashcardapp_renderadbreak",
+      "community": 1,
       "norm_label": ".renderadbreak()"
     },
     {
       "label": ".dismissAdBreak()",
       "file_type": "code",
-      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_file": "ios/App/App/public/app.js",
       "source_location": "L182",
-      "id": "www_app_flashcardapp_dismissadbreak",
-      "community": 5,
+      "id": "public_app_flashcardapp_dismissadbreak",
+      "community": 1,
       "norm_label": ".dismissadbreak()"
     },
     {
       "label": ".restart()",
       "file_type": "code",
-      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_file": "ios/App/App/public/app.js",
       "source_location": "L185",
-      "id": "www_app_flashcardapp_restart",
-      "community": 5,
+      "id": "public_app_flashcardapp_restart",
+      "community": 1,
       "norm_label": ".restart()"
     },
     {
       "label": ".render()",
       "file_type": "code",
-      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_file": "ios/App/App/public/app.js",
       "source_location": "L194",
-      "id": "www_app_flashcardapp_render",
-      "community": 5,
+      "id": "public_app_flashcardapp_render",
+      "community": 1,
       "norm_label": ".render()"
     },
     {
       "label": ".renderLanguagePill()",
       "file_type": "code",
-      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_file": "ios/App/App/public/app.js",
       "source_location": "L206",
-      "id": "www_app_flashcardapp_renderlanguagepill",
+      "id": "public_app_flashcardapp_renderlanguagepill",
       "community": 1,
       "norm_label": ".renderlanguagepill()"
     },
     {
       "label": ".renderStateSelection()",
       "file_type": "code",
-      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_file": "ios/App/App/public/app.js",
       "source_location": "L214",
-      "id": "www_app_flashcardapp_renderstateselection",
-      "community": 6,
+      "id": "public_app_flashcardapp_renderstateselection",
+      "community": 1,
       "norm_label": ".renderstateselection()"
     },
     {
       "label": ".renderQuestionCard()",
       "file_type": "code",
-      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_file": "ios/App/App/public/app.js",
       "source_location": "L254",
-      "id": "www_app_flashcardapp_renderquestioncard",
+      "id": "public_app_flashcardapp_renderquestioncard",
       "community": 1,
       "norm_label": ".renderquestioncard()"
     },
     {
       "label": ".renderFeedbackDrawer()",
       "file_type": "code",
-      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_file": "ios/App/App/public/app.js",
       "source_location": "L331",
-      "id": "www_app_flashcardapp_renderfeedbackdrawer",
-      "community": 6,
+      "id": "public_app_flashcardapp_renderfeedbackdrawer",
+      "community": 1,
       "norm_label": ".renderfeedbackdrawer()"
     },
     {
       "label": ".renderComplete()",
       "file_type": "code",
-      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_file": "ios/App/App/public/app.js",
       "source_location": "L403",
-      "id": "www_app_flashcardapp_rendercomplete",
-      "community": 6,
+      "id": "public_app_flashcardapp_rendercomplete",
+      "community": 1,
       "norm_label": ".rendercomplete()"
     },
     {
       "label": ".attachEventListeners()",
       "file_type": "code",
-      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_file": "ios/App/App/public/app.js",
       "source_location": "L452",
-      "id": "www_app_flashcardapp_attacheventlisteners",
-      "community": 5,
+      "id": "public_app_flashcardapp_attacheventlisteners",
+      "community": 1,
       "norm_label": ".attacheventlisteners()"
     },
     {
       "label": "questions.js",
       "file_type": "code",
-      "source_file": "android/app/src/main/assets/www/questions.js",
+      "source_file": "ios/App/App/public/questions.js",
       "source_location": "L1",
       "id": "android_app_src_main_assets_www_questions_js",
-      "community": 18,
+      "community": 20,
       "norm_label": "questions.js"
     },
     {
@@ -522,71 +576,521 @@
       "source_file": "android/app/src/main/java/com/candicetinamartins/lebenindeutschlandtrainer/MainActivity.java",
       "source_location": "L1",
       "id": "android_app_src_main_java_com_candicetinamartins_lebenindeutschlandtrainer_mainactivity_java",
-      "community": 2,
+      "community": 3,
       "norm_label": "mainactivity.java"
     },
     {
       "label": "MainActivity",
       "file_type": "code",
       "source_file": "android/app/src/main/java/com/candicetinamartins/lebenindeutschlandtrainer/MainActivity.java",
-      "source_location": "L17",
+      "source_location": "L35",
       "id": "lebenindeutschlandtrainer_mainactivity_mainactivity",
-      "community": 2,
+      "community": 3,
       "norm_label": "mainactivity"
     },
     {
       "label": "Activity",
       "file_type": "code",
-      "source_file": "android/app/src/main/java/com/candicetinamartins/lebenindeutschlandtrainer/MainActivity.java",
+      "source_file": "",
       "source_location": "",
       "id": "activity",
-      "community": 2,
+      "community": 3,
       "norm_label": "activity"
+    },
+    {
+      "label": ".dpToPx()",
+      "file_type": "code",
+      "source_file": "android/app/src/main/java/com/candicetinamartins/lebenindeutschlandtrainer/MainActivity.java",
+      "source_location": "L44",
+      "id": "lebenindeutschlandtrainer_mainactivity_mainactivity_dptopx",
+      "community": 3,
+      "norm_label": ".dptopx()"
     },
     {
       "label": ".onCreate()",
       "file_type": "code",
       "source_file": "android/app/src/main/java/com/candicetinamartins/lebenindeutschlandtrainer/MainActivity.java",
-      "source_location": "L21",
+      "source_location": "L48",
       "id": "lebenindeutschlandtrainer_mainactivity_mainactivity_oncreate",
-      "community": 2,
+      "community": 3,
       "norm_label": ".oncreate()"
+    },
+    {
+      "label": ".requestConsentAndLoadAds()",
+      "file_type": "code",
+      "source_file": "android/app/src/main/java/com/candicetinamartins/lebenindeutschlandtrainer/MainActivity.java",
+      "source_location": "L177",
+      "id": "lebenindeutschlandtrainer_mainactivity_mainactivity_requestconsentandloadads",
+      "community": 3,
+      "norm_label": ".requestconsentandloadads()"
+    },
+    {
+      "label": ".isDebuggableBuild()",
+      "file_type": "code",
+      "source_file": "android/app/src/main/java/com/candicetinamartins/lebenindeutschlandtrainer/MainActivity.java",
+      "source_location": "L213",
+      "id": "lebenindeutschlandtrainer_mainactivity_mainactivity_isdebuggablebuild",
+      "community": 3,
+      "norm_label": ".isdebuggablebuild()"
+    },
+    {
+      "label": ".handleUrl()",
+      "file_type": "code",
+      "source_file": "android/app/src/main/java/com/candicetinamartins/lebenindeutschlandtrainer/MainActivity.java",
+      "source_location": "L217",
+      "id": "lebenindeutschlandtrainer_mainactivity_mainactivity_handleurl",
+      "community": 3,
+      "norm_label": ".handleurl()"
+    },
+    {
+      "label": ".updatePrivacyOptionsButton()",
+      "file_type": "code",
+      "source_file": "android/app/src/main/java/com/candicetinamartins/lebenindeutschlandtrainer/MainActivity.java",
+      "source_location": "L229",
+      "id": "lebenindeutschlandtrainer_mainactivity_mainactivity_updateprivacyoptionsbutton",
+      "community": 3,
+      "norm_label": ".updateprivacyoptionsbutton()"
+    },
+    {
+      "label": ".initializeMobileAdsSdk()",
+      "file_type": "code",
+      "source_file": "android/app/src/main/java/com/candicetinamartins/lebenindeutschlandtrainer/MainActivity.java",
+      "source_location": "L238",
+      "id": "lebenindeutschlandtrainer_mainactivity_mainactivity_initializemobileadssdk",
+      "community": 3,
+      "norm_label": ".initializemobileadssdk()"
+    },
+    {
+      "label": ".applySystemBarInsets()",
+      "file_type": "code",
+      "source_file": "android/app/src/main/java/com/candicetinamartins/lebenindeutschlandtrainer/MainActivity.java",
+      "source_location": "L245",
+      "id": "lebenindeutschlandtrainer_mainactivity_mainactivity_applysystembarinsets",
+      "community": 3,
+      "norm_label": ".applysystembarinsets()"
+    },
+    {
+      "label": ".setSpacerHeight()",
+      "file_type": "code",
+      "source_file": "android/app/src/main/java/com/candicetinamartins/lebenindeutschlandtrainer/MainActivity.java",
+      "source_location": "L260",
+      "id": "lebenindeutschlandtrainer_mainactivity_mainactivity_setspacerheight",
+      "community": 3,
+      "norm_label": ".setspacerheight()"
+    },
+    {
+      "label": ".getStatusBarHeight()",
+      "file_type": "code",
+      "source_file": "android/app/src/main/java/com/candicetinamartins/lebenindeutschlandtrainer/MainActivity.java",
+      "source_location": "L271",
+      "id": "lebenindeutschlandtrainer_mainactivity_mainactivity_getstatusbarheight",
+      "community": 3,
+      "norm_label": ".getstatusbarheight()"
+    },
+    {
+      "label": ".getNavigationBarHeight()",
+      "file_type": "code",
+      "source_file": "android/app/src/main/java/com/candicetinamartins/lebenindeutschlandtrainer/MainActivity.java",
+      "source_location": "L276",
+      "id": "lebenindeutschlandtrainer_mainactivity_mainactivity_getnavigationbarheight",
+      "community": 3,
+      "norm_label": ".getnavigationbarheight()"
     },
     {
       "label": ".onPause()",
       "file_type": "code",
       "source_file": "android/app/src/main/java/com/candicetinamartins/lebenindeutschlandtrainer/MainActivity.java",
-      "source_location": "L68",
+      "source_location": "L281",
       "id": "lebenindeutschlandtrainer_mainactivity_mainactivity_onpause",
-      "community": 2,
+      "community": 3,
       "norm_label": ".onpause()"
     },
     {
       "label": ".onResume()",
       "file_type": "code",
       "source_file": "android/app/src/main/java/com/candicetinamartins/lebenindeutschlandtrainer/MainActivity.java",
-      "source_location": "L76",
+      "source_location": "L289",
       "id": "lebenindeutschlandtrainer_mainactivity_mainactivity_onresume",
-      "community": 2,
+      "community": 3,
       "norm_label": ".onresume()"
     },
     {
       "label": ".onDestroy()",
       "file_type": "code",
       "source_file": "android/app/src/main/java/com/candicetinamartins/lebenindeutschlandtrainer/MainActivity.java",
-      "source_location": "L84",
+      "source_location": "L297",
       "id": "lebenindeutschlandtrainer_mainactivity_mainactivity_ondestroy",
-      "community": 2,
+      "community": 3,
       "norm_label": ".ondestroy()"
     },
     {
       "label": ".onBackPressed()",
       "file_type": "code",
       "source_file": "android/app/src/main/java/com/candicetinamartins/lebenindeutschlandtrainer/MainActivity.java",
-      "source_location": "L92",
+      "source_location": "L305",
       "id": "lebenindeutschlandtrainer_mainactivity_mainactivity_onbackpressed",
-      "community": 2,
+      "community": 3,
       "norm_label": ".onbackpressed()"
+    },
+    {
+      "label": "AppDelegate.swift",
+      "file_type": "code",
+      "source_file": "ios/App/App/AppDelegate.swift",
+      "source_location": "L1",
+      "id": "ios_app_app_appdelegate_swift",
+      "community": 4,
+      "norm_label": "appdelegate.swift"
+    },
+    {
+      "label": "AppDelegate",
+      "file_type": "code",
+      "source_file": "ios/App/App/AppDelegate.swift",
+      "source_location": "L4",
+      "id": "app_appdelegate_appdelegate",
+      "community": 4,
+      "norm_label": "appdelegate"
+    },
+    {
+      "label": "UIResponder",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "uiresponder",
+      "community": 4,
+      "norm_label": "uiresponder"
+    },
+    {
+      "label": "UIApplicationDelegate",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "uiapplicationdelegate",
+      "community": 4,
+      "norm_label": "uiapplicationdelegate"
+    },
+    {
+      "label": ".application()",
+      "file_type": "code",
+      "source_file": "ios/App/App/AppDelegate.swift",
+      "source_location": "L9",
+      "id": "app_appdelegate_appdelegate_application",
+      "community": 4,
+      "norm_label": ".application()"
+    },
+    {
+      "label": ".applicationWillResignActive()",
+      "file_type": "code",
+      "source_file": "ios/App/App/AppDelegate.swift",
+      "source_location": "L14",
+      "id": "app_appdelegate_appdelegate_applicationwillresignactive",
+      "community": 4,
+      "norm_label": ".applicationwillresignactive()"
+    },
+    {
+      "label": ".applicationDidEnterBackground()",
+      "file_type": "code",
+      "source_file": "ios/App/App/AppDelegate.swift",
+      "source_location": "L19",
+      "id": "app_appdelegate_appdelegate_applicationdidenterbackground",
+      "community": 4,
+      "norm_label": ".applicationdidenterbackground()"
+    },
+    {
+      "label": ".applicationWillEnterForeground()",
+      "file_type": "code",
+      "source_file": "ios/App/App/AppDelegate.swift",
+      "source_location": "L24",
+      "id": "app_appdelegate_appdelegate_applicationwillenterforeground",
+      "community": 4,
+      "norm_label": ".applicationwillenterforeground()"
+    },
+    {
+      "label": ".applicationDidBecomeActive()",
+      "file_type": "code",
+      "source_file": "ios/App/App/AppDelegate.swift",
+      "source_location": "L28",
+      "id": "app_appdelegate_appdelegate_applicationdidbecomeactive",
+      "community": 4,
+      "norm_label": ".applicationdidbecomeactive()"
+    },
+    {
+      "label": ".applicationWillTerminate()",
+      "file_type": "code",
+      "source_file": "ios/App/App/AppDelegate.swift",
+      "source_location": "L32",
+      "id": "app_appdelegate_appdelegate_applicationwillterminate",
+      "community": 4,
+      "norm_label": ".applicationwillterminate()"
+    },
+    {
+      "label": "cordova_plugins.js",
+      "file_type": "code",
+      "source_file": "ios/App/App/public/cordova_plugins.js",
+      "source_location": "L1",
+      "id": "ios_app_app_public_cordova_plugins_js",
+      "community": 21,
+      "norm_label": "cordova_plugins.js"
+    },
+    {
+      "label": "apply-audit-fixes-v2.js",
+      "file_type": "code",
+      "source_file": "apply-audit-fixes-v2.js",
+      "source_location": "L1",
+      "community": 22,
+      "norm_label": "apply-audit-fixes-v2.js",
+      "id": "apply_audit_fixes_v2_js"
+    },
+    {
+      "label": "apply-audit-fixes-v3.js",
+      "file_type": "code",
+      "source_file": "apply-audit-fixes-v3.js",
+      "source_location": "L1",
+      "community": 23,
+      "norm_label": "apply-audit-fixes-v3.js",
+      "id": "apply_audit_fixes_v3_js"
+    },
+    {
+      "label": "apply-audit-fixes-v4.js",
+      "file_type": "code",
+      "source_file": "apply-audit-fixes-v4.js",
+      "source_location": "L1",
+      "community": 24,
+      "norm_label": "apply-audit-fixes-v4.js",
+      "id": "apply_audit_fixes_v4_js"
+    },
+    {
+      "label": "apply-audit-fixes-v5.js",
+      "file_type": "code",
+      "source_file": "apply-audit-fixes-v5.js",
+      "source_location": "L1",
+      "community": 25,
+      "norm_label": "apply-audit-fixes-v5.js",
+      "id": "apply_audit_fixes_v5_js"
+    },
+    {
+      "label": "apply-audit-fixes.js",
+      "file_type": "code",
+      "source_file": "apply-audit-fixes.js",
+      "source_location": "L1",
+      "community": 26,
+      "norm_label": "apply-audit-fixes.js",
+      "id": "apply_audit_fixes_js"
+    },
+    {
+      "label": "check-fix-status.js",
+      "file_type": "code",
+      "source_file": "check-fix-status.js",
+      "source_location": "L1",
+      "community": 27,
+      "norm_label": "check-fix-status.js",
+      "id": "check_fix_status_js"
+    },
+    {
+      "label": "check-fixes-v2.js",
+      "file_type": "code",
+      "source_file": "check-fixes-v2.js",
+      "source_location": "L1",
+      "community": 28,
+      "norm_label": "check-fixes-v2.js",
+      "id": "check_fixes_v2_js"
+    },
+    {
+      "label": "app.js",
+      "file_type": "code",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L1",
+      "community": 2,
+      "norm_label": "app.js",
+      "id": "android_app_src_main_assets_www_app_js"
+    },
+    {
+      "label": "FlashcardApp",
+      "file_type": "code",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L56",
+      "community": 2,
+      "norm_label": "flashcardapp",
+      "id": "www_app_flashcardapp"
+    },
+    {
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L57",
+      "community": 2,
+      "norm_label": ".constructor()",
+      "id": "www_app_flashcardapp_constructor"
+    },
+    {
+      "label": ".init()",
+      "file_type": "code",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L67",
+      "community": 2,
+      "norm_label": ".init()",
+      "id": "www_app_flashcardapp_init"
+    },
+    {
+      "label": ".setLanguage()",
+      "file_type": "code",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L70",
+      "community": 2,
+      "norm_label": ".setlanguage()",
+      "id": "www_app_flashcardapp_setlanguage"
+    },
+    {
+      "label": ".getTranslation()",
+      "file_type": "code",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L75",
+      "community": 2,
+      "norm_label": ".gettranslation()",
+      "id": "www_app_flashcardapp_gettranslation"
+    },
+    {
+      "label": ".getQuestionText()",
+      "file_type": "code",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L78",
+      "community": 2,
+      "norm_label": ".getquestiontext()",
+      "id": "www_app_flashcardapp_getquestiontext"
+    },
+    {
+      "label": ".getAnswerText()",
+      "file_type": "code",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L86",
+      "community": 2,
+      "norm_label": ".getanswertext()",
+      "id": "www_app_flashcardapp_getanswertext"
+    },
+    {
+      "label": ".shuffleArray()",
+      "file_type": "code",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L94",
+      "community": 2,
+      "norm_label": ".shufflearray()",
+      "id": "www_app_flashcardapp_shufflearray"
+    },
+    {
+      "label": ".selectState()",
+      "file_type": "code",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L102",
+      "community": 2,
+      "norm_label": ".selectstate()",
+      "id": "www_app_flashcardapp_selectstate"
+    },
+    {
+      "label": ".selectAnswer()",
+      "file_type": "code",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L118",
+      "community": 2,
+      "norm_label": ".selectanswer()",
+      "id": "www_app_flashcardapp_selectanswer"
+    },
+    {
+      "label": ".nextQuestion()",
+      "file_type": "code",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L130",
+      "community": 2,
+      "norm_label": ".nextquestion()",
+      "id": "www_app_flashcardapp_nextquestion"
+    },
+    {
+      "label": ".renderAdBreak()",
+      "file_type": "code",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L139",
+      "community": 2,
+      "norm_label": ".renderadbreak()",
+      "id": "www_app_flashcardapp_renderadbreak"
+    },
+    {
+      "label": ".dismissAdBreak()",
+      "file_type": "code",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L182",
+      "community": 2,
+      "norm_label": ".dismissadbreak()",
+      "id": "www_app_flashcardapp_dismissadbreak"
+    },
+    {
+      "label": ".restart()",
+      "file_type": "code",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L185",
+      "community": 2,
+      "norm_label": ".restart()",
+      "id": "www_app_flashcardapp_restart"
+    },
+    {
+      "label": ".render()",
+      "file_type": "code",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L194",
+      "community": 2,
+      "norm_label": ".render()",
+      "id": "www_app_flashcardapp_render"
+    },
+    {
+      "label": ".renderLanguagePill()",
+      "file_type": "code",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L206",
+      "community": 2,
+      "norm_label": ".renderlanguagepill()",
+      "id": "www_app_flashcardapp_renderlanguagepill"
+    },
+    {
+      "label": ".renderStateSelection()",
+      "file_type": "code",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L214",
+      "community": 2,
+      "norm_label": ".renderstateselection()",
+      "id": "www_app_flashcardapp_renderstateselection"
+    },
+    {
+      "label": ".renderQuestionCard()",
+      "file_type": "code",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L254",
+      "community": 2,
+      "norm_label": ".renderquestioncard()",
+      "id": "www_app_flashcardapp_renderquestioncard"
+    },
+    {
+      "label": ".renderFeedbackDrawer()",
+      "file_type": "code",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L331",
+      "community": 2,
+      "norm_label": ".renderfeedbackdrawer()",
+      "id": "www_app_flashcardapp_renderfeedbackdrawer"
+    },
+    {
+      "label": ".renderComplete()",
+      "file_type": "code",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L403",
+      "community": 2,
+      "norm_label": ".rendercomplete()",
+      "id": "www_app_flashcardapp_rendercomplete"
+    },
+    {
+      "label": ".attachEventListeners()",
+      "file_type": "code",
+      "source_file": "android/app/src/main/assets/www/app.js",
+      "source_location": "L452",
+      "community": 2,
+      "norm_label": ".attacheventlisteners()",
+      "id": "www_app_flashcardapp_attacheventlisteners"
     }
   ],
   "links": [
@@ -1031,6 +1535,806 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "ios/App/App/public/app.js",
+      "source_location": "L56",
+      "weight": 1.0,
+      "source": "ios_app_app_public_app_js",
+      "target": "public_app_flashcardapp",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ios/App/App/public/app.js",
+      "source_location": "L57",
+      "weight": 1.0,
+      "source": "public_app_flashcardapp",
+      "target": "public_app_flashcardapp_constructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ios/App/App/public/app.js",
+      "source_location": "L67",
+      "weight": 1.0,
+      "source": "public_app_flashcardapp",
+      "target": "public_app_flashcardapp_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ios/App/App/public/app.js",
+      "source_location": "L70",
+      "weight": 1.0,
+      "source": "public_app_flashcardapp",
+      "target": "public_app_flashcardapp_setlanguage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ios/App/App/public/app.js",
+      "source_location": "L75",
+      "weight": 1.0,
+      "source": "public_app_flashcardapp",
+      "target": "public_app_flashcardapp_gettranslation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ios/App/App/public/app.js",
+      "source_location": "L78",
+      "weight": 1.0,
+      "source": "public_app_flashcardapp",
+      "target": "public_app_flashcardapp_getquestiontext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ios/App/App/public/app.js",
+      "source_location": "L86",
+      "weight": 1.0,
+      "source": "public_app_flashcardapp",
+      "target": "public_app_flashcardapp_getanswertext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ios/App/App/public/app.js",
+      "source_location": "L94",
+      "weight": 1.0,
+      "source": "public_app_flashcardapp",
+      "target": "public_app_flashcardapp_shufflearray",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ios/App/App/public/app.js",
+      "source_location": "L102",
+      "weight": 1.0,
+      "source": "public_app_flashcardapp",
+      "target": "public_app_flashcardapp_selectstate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ios/App/App/public/app.js",
+      "source_location": "L118",
+      "weight": 1.0,
+      "source": "public_app_flashcardapp",
+      "target": "public_app_flashcardapp_selectanswer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ios/App/App/public/app.js",
+      "source_location": "L130",
+      "weight": 1.0,
+      "source": "public_app_flashcardapp",
+      "target": "public_app_flashcardapp_nextquestion",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ios/App/App/public/app.js",
+      "source_location": "L139",
+      "weight": 1.0,
+      "source": "public_app_flashcardapp",
+      "target": "public_app_flashcardapp_renderadbreak",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ios/App/App/public/app.js",
+      "source_location": "L182",
+      "weight": 1.0,
+      "source": "public_app_flashcardapp",
+      "target": "public_app_flashcardapp_dismissadbreak",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ios/App/App/public/app.js",
+      "source_location": "L185",
+      "weight": 1.0,
+      "source": "public_app_flashcardapp",
+      "target": "public_app_flashcardapp_restart",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ios/App/App/public/app.js",
+      "source_location": "L194",
+      "weight": 1.0,
+      "source": "public_app_flashcardapp",
+      "target": "public_app_flashcardapp_render",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ios/App/App/public/app.js",
+      "source_location": "L206",
+      "weight": 1.0,
+      "source": "public_app_flashcardapp",
+      "target": "public_app_flashcardapp_renderlanguagepill",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ios/App/App/public/app.js",
+      "source_location": "L214",
+      "weight": 1.0,
+      "source": "public_app_flashcardapp",
+      "target": "public_app_flashcardapp_renderstateselection",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ios/App/App/public/app.js",
+      "source_location": "L254",
+      "weight": 1.0,
+      "source": "public_app_flashcardapp",
+      "target": "public_app_flashcardapp_renderquestioncard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ios/App/App/public/app.js",
+      "source_location": "L331",
+      "weight": 1.0,
+      "source": "public_app_flashcardapp",
+      "target": "public_app_flashcardapp_renderfeedbackdrawer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ios/App/App/public/app.js",
+      "source_location": "L403",
+      "weight": 1.0,
+      "source": "public_app_flashcardapp",
+      "target": "public_app_flashcardapp_rendercomplete",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ios/App/App/public/app.js",
+      "source_location": "L452",
+      "weight": 1.0,
+      "source": "public_app_flashcardapp",
+      "target": "public_app_flashcardapp_attacheventlisteners",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "ios/App/App/public/app.js",
+      "source_location": "L65",
+      "weight": 1.0,
+      "source": "public_app_flashcardapp_constructor",
+      "target": "public_app_flashcardapp_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "ios/App/App/public/app.js",
+      "source_location": "L68",
+      "weight": 1.0,
+      "source": "public_app_flashcardapp_init",
+      "target": "public_app_flashcardapp_render",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "ios/App/App/public/app.js",
+      "source_location": "L73",
+      "weight": 1.0,
+      "source": "public_app_flashcardapp_setlanguage",
+      "target": "public_app_flashcardapp_render",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "ios/App/App/public/app.js",
+      "source_location": "L232",
+      "weight": 1.0,
+      "source": "public_app_flashcardapp_renderstateselection",
+      "target": "public_app_flashcardapp_gettranslation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "ios/App/App/public/app.js",
+      "source_location": "L366",
+      "weight": 1.0,
+      "source": "public_app_flashcardapp_renderfeedbackdrawer",
+      "target": "public_app_flashcardapp_gettranslation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "ios/App/App/public/app.js",
+      "source_location": "L416",
+      "weight": 1.0,
+      "source": "public_app_flashcardapp_rendercomplete",
+      "target": "public_app_flashcardapp_gettranslation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "ios/App/App/public/app.js",
+      "source_location": "L257",
+      "weight": 1.0,
+      "source": "public_app_flashcardapp_renderquestioncard",
+      "target": "public_app_flashcardapp_getquestiontext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "ios/App/App/public/app.js",
+      "source_location": "L105",
+      "weight": 1.0,
+      "source": "public_app_flashcardapp_selectstate",
+      "target": "public_app_flashcardapp_shufflearray",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "ios/App/App/public/app.js",
+      "source_location": "L116",
+      "weight": 1.0,
+      "source": "public_app_flashcardapp_selectstate",
+      "target": "public_app_flashcardapp_render",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "ios/App/App/public/app.js",
+      "source_location": "L128",
+      "weight": 1.0,
+      "source": "public_app_flashcardapp_selectanswer",
+      "target": "public_app_flashcardapp_renderfeedbackdrawer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "ios/App/App/public/app.js",
+      "source_location": "L134",
+      "weight": 1.0,
+      "source": "public_app_flashcardapp_nextquestion",
+      "target": "public_app_flashcardapp_rendercomplete",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "ios/App/App/public/app.js",
+      "source_location": "L136",
+      "weight": 1.0,
+      "source": "public_app_flashcardapp_nextquestion",
+      "target": "public_app_flashcardapp_render",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "ios/App/App/public/app.js",
+      "source_location": "L141",
+      "weight": 1.0,
+      "source": "public_app_flashcardapp_renderadbreak",
+      "target": "public_app_flashcardapp_render",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "ios/App/App/public/app.js",
+      "source_location": "L183",
+      "weight": 1.0,
+      "source": "public_app_flashcardapp_dismissadbreak",
+      "target": "public_app_flashcardapp_render",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "ios/App/App/public/app.js",
+      "source_location": "L192",
+      "weight": 1.0,
+      "source": "public_app_flashcardapp_restart",
+      "target": "public_app_flashcardapp_render",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "ios/App/App/public/app.js",
+      "source_location": "L197",
+      "weight": 1.0,
+      "source": "public_app_flashcardapp_render",
+      "target": "public_app_flashcardapp_renderstateselection",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "ios/App/App/public/app.js",
+      "source_location": "L199",
+      "weight": 1.0,
+      "source": "public_app_flashcardapp_render",
+      "target": "public_app_flashcardapp_renderquestioncard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "ios/App/App/public/app.js",
+      "source_location": "L204",
+      "weight": 1.0,
+      "source": "public_app_flashcardapp_render",
+      "target": "public_app_flashcardapp_attacheventlisteners",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/java/com/candicetinamartins/lebenindeutschlandtrainer/MainActivity.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "android_app_src_main_java_com_candicetinamartins_lebenindeutschlandtrainer_mainactivity_java",
+      "target": "activity"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/java/com/candicetinamartins/lebenindeutschlandtrainer/MainActivity.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "android_app_src_main_java_com_candicetinamartins_lebenindeutschlandtrainer_mainactivity_java",
+      "target": "lebenindeutschlandtrainer_mainactivity_mainactivity"
+    },
+    {
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/java/com/candicetinamartins/lebenindeutschlandtrainer/MainActivity.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lebenindeutschlandtrainer_mainactivity_mainactivity",
+      "target": "activity"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/java/com/candicetinamartins/lebenindeutschlandtrainer/MainActivity.java",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "lebenindeutschlandtrainer_mainactivity_mainactivity",
+      "target": "lebenindeutschlandtrainer_mainactivity_mainactivity_dptopx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/java/com/candicetinamartins/lebenindeutschlandtrainer/MainActivity.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lebenindeutschlandtrainer_mainactivity_mainactivity",
+      "target": "lebenindeutschlandtrainer_mainactivity_mainactivity_oncreate"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/java/com/candicetinamartins/lebenindeutschlandtrainer/MainActivity.java",
+      "source_location": "L177",
+      "weight": 1.0,
+      "source": "lebenindeutschlandtrainer_mainactivity_mainactivity",
+      "target": "lebenindeutschlandtrainer_mainactivity_mainactivity_requestconsentandloadads",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/java/com/candicetinamartins/lebenindeutschlandtrainer/MainActivity.java",
+      "source_location": "L213",
+      "weight": 1.0,
+      "source": "lebenindeutschlandtrainer_mainactivity_mainactivity",
+      "target": "lebenindeutschlandtrainer_mainactivity_mainactivity_isdebuggablebuild",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/java/com/candicetinamartins/lebenindeutschlandtrainer/MainActivity.java",
+      "source_location": "L217",
+      "weight": 1.0,
+      "source": "lebenindeutschlandtrainer_mainactivity_mainactivity",
+      "target": "lebenindeutschlandtrainer_mainactivity_mainactivity_handleurl",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/java/com/candicetinamartins/lebenindeutschlandtrainer/MainActivity.java",
+      "source_location": "L229",
+      "weight": 1.0,
+      "source": "lebenindeutschlandtrainer_mainactivity_mainactivity",
+      "target": "lebenindeutschlandtrainer_mainactivity_mainactivity_updateprivacyoptionsbutton",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/java/com/candicetinamartins/lebenindeutschlandtrainer/MainActivity.java",
+      "source_location": "L238",
+      "weight": 1.0,
+      "source": "lebenindeutschlandtrainer_mainactivity_mainactivity",
+      "target": "lebenindeutschlandtrainer_mainactivity_mainactivity_initializemobileadssdk",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/java/com/candicetinamartins/lebenindeutschlandtrainer/MainActivity.java",
+      "source_location": "L245",
+      "weight": 1.0,
+      "source": "lebenindeutschlandtrainer_mainactivity_mainactivity",
+      "target": "lebenindeutschlandtrainer_mainactivity_mainactivity_applysystembarinsets",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/java/com/candicetinamartins/lebenindeutschlandtrainer/MainActivity.java",
+      "source_location": "L260",
+      "weight": 1.0,
+      "source": "lebenindeutschlandtrainer_mainactivity_mainactivity",
+      "target": "lebenindeutschlandtrainer_mainactivity_mainactivity_setspacerheight",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/java/com/candicetinamartins/lebenindeutschlandtrainer/MainActivity.java",
+      "source_location": "L271",
+      "weight": 1.0,
+      "source": "lebenindeutschlandtrainer_mainactivity_mainactivity",
+      "target": "lebenindeutschlandtrainer_mainactivity_mainactivity_getstatusbarheight",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/java/com/candicetinamartins/lebenindeutschlandtrainer/MainActivity.java",
+      "source_location": "L276",
+      "weight": 1.0,
+      "source": "lebenindeutschlandtrainer_mainactivity_mainactivity",
+      "target": "lebenindeutschlandtrainer_mainactivity_mainactivity_getnavigationbarheight",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/java/com/candicetinamartins/lebenindeutschlandtrainer/MainActivity.java",
+      "source_location": "L68",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lebenindeutschlandtrainer_mainactivity_mainactivity",
+      "target": "lebenindeutschlandtrainer_mainactivity_mainactivity_onpause"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/java/com/candicetinamartins/lebenindeutschlandtrainer/MainActivity.java",
+      "source_location": "L76",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lebenindeutschlandtrainer_mainactivity_mainactivity",
+      "target": "lebenindeutschlandtrainer_mainactivity_mainactivity_onresume"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/java/com/candicetinamartins/lebenindeutschlandtrainer/MainActivity.java",
+      "source_location": "L84",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lebenindeutschlandtrainer_mainactivity_mainactivity",
+      "target": "lebenindeutschlandtrainer_mainactivity_mainactivity_ondestroy"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/java/com/candicetinamartins/lebenindeutschlandtrainer/MainActivity.java",
+      "source_location": "L36",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lebenindeutschlandtrainer_mainactivity_mainactivity",
+      "target": "lebenindeutschlandtrainer_mainactivity_mainactivity_onbackpressed"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/java/com/candicetinamartins/lebenindeutschlandtrainer/MainActivity.java",
+      "source_location": "L108",
+      "weight": 1.0,
+      "source": "lebenindeutschlandtrainer_mainactivity_mainactivity_oncreate",
+      "target": "lebenindeutschlandtrainer_mainactivity_mainactivity_dptopx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/java/com/candicetinamartins/lebenindeutschlandtrainer/MainActivity.java",
+      "source_location": "L59",
+      "weight": 1.0,
+      "source": "lebenindeutschlandtrainer_mainactivity_mainactivity_oncreate",
+      "target": "lebenindeutschlandtrainer_mainactivity_mainactivity_applysystembarinsets",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/java/com/candicetinamartins/lebenindeutschlandtrainer/MainActivity.java",
+      "source_location": "L66",
+      "weight": 1.0,
+      "source": "lebenindeutschlandtrainer_mainactivity_mainactivity_oncreate",
+      "target": "lebenindeutschlandtrainer_mainactivity_mainactivity_getstatusbarheight",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/java/com/candicetinamartins/lebenindeutschlandtrainer/MainActivity.java",
+      "source_location": "L137",
+      "weight": 1.0,
+      "source": "lebenindeutschlandtrainer_mainactivity_mainactivity_oncreate",
+      "target": "lebenindeutschlandtrainer_mainactivity_mainactivity_initializemobileadssdk",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/java/com/candicetinamartins/lebenindeutschlandtrainer/MainActivity.java",
+      "source_location": "L139",
+      "weight": 1.0,
+      "source": "lebenindeutschlandtrainer_mainactivity_mainactivity_oncreate",
+      "target": "lebenindeutschlandtrainer_mainactivity_mainactivity_updateprivacyoptionsbutton",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/java/com/candicetinamartins/lebenindeutschlandtrainer/MainActivity.java",
+      "source_location": "L170",
+      "weight": 1.0,
+      "source": "lebenindeutschlandtrainer_mainactivity_mainactivity_oncreate",
+      "target": "lebenindeutschlandtrainer_mainactivity_mainactivity_getnavigationbarheight",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/java/com/candicetinamartins/lebenindeutschlandtrainer/MainActivity.java",
+      "source_location": "L174",
+      "weight": 1.0,
+      "source": "lebenindeutschlandtrainer_mainactivity_mainactivity_oncreate",
+      "target": "lebenindeutschlandtrainer_mainactivity_mainactivity_requestconsentandloadads",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/java/com/candicetinamartins/lebenindeutschlandtrainer/MainActivity.java",
+      "source_location": "L179",
+      "weight": 1.0,
+      "source": "lebenindeutschlandtrainer_mainactivity_mainactivity_requestconsentandloadads",
+      "target": "lebenindeutschlandtrainer_mainactivity_mainactivity_isdebuggablebuild",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/java/com/candicetinamartins/lebenindeutschlandtrainer/MainActivity.java",
+      "source_location": "L194",
+      "weight": 1.0,
+      "source": "lebenindeutschlandtrainer_mainactivity_mainactivity_requestconsentandloadads",
+      "target": "lebenindeutschlandtrainer_mainactivity_mainactivity_updateprivacyoptionsbutton",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/java/com/candicetinamartins/lebenindeutschlandtrainer/MainActivity.java",
+      "source_location": "L196",
+      "weight": 1.0,
+      "source": "lebenindeutschlandtrainer_mainactivity_mainactivity_requestconsentandloadads",
+      "target": "lebenindeutschlandtrainer_mainactivity_mainactivity_initializemobileadssdk",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/java/com/candicetinamartins/lebenindeutschlandtrainer/MainActivity.java",
+      "source_location": "L250",
+      "weight": 1.0,
+      "source": "lebenindeutschlandtrainer_mainactivity_mainactivity_applysystembarinsets",
+      "target": "lebenindeutschlandtrainer_mainactivity_mainactivity_setspacerheight",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "ios/App/App/AppDelegate.swift",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "ios_app_app_appdelegate_swift",
+      "target": "app_appdelegate_appdelegate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "ios/App/App/AppDelegate.swift",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "app_appdelegate_appdelegate",
+      "target": "uiresponder",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "ios/App/App/AppDelegate.swift",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "app_appdelegate_appdelegate",
+      "target": "uiapplicationdelegate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ios/App/App/AppDelegate.swift",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "app_appdelegate_appdelegate",
+      "target": "app_appdelegate_appdelegate_application",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ios/App/App/AppDelegate.swift",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "app_appdelegate_appdelegate",
+      "target": "app_appdelegate_appdelegate_applicationwillresignactive",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ios/App/App/AppDelegate.swift",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "app_appdelegate_appdelegate",
+      "target": "app_appdelegate_appdelegate_applicationdidenterbackground",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ios/App/App/AppDelegate.swift",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "app_appdelegate_appdelegate",
+      "target": "app_appdelegate_appdelegate_applicationwillenterforeground",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ios/App/App/AppDelegate.swift",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "app_appdelegate_appdelegate",
+      "target": "app_appdelegate_appdelegate_applicationdidbecomeactive",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ios/App/App/AppDelegate.swift",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "app_appdelegate_appdelegate",
+      "target": "app_appdelegate_appdelegate_applicationwillterminate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "android/app/src/main/assets/www/app.js",
       "source_location": "L56",
       "weight": 1.0,
@@ -1435,89 +2739,8 @@
       "confidence_score": 1.0,
       "source": "www_app_flashcardapp_render",
       "target": "www_app_flashcardapp_attacheventlisteners"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "android/app/src/main/java/com/candicetinamartins/lebenindeutschlandtrainer/MainActivity.java",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "android_app_src_main_java_com_candicetinamartins_lebenindeutschlandtrainer_mainactivity_java",
-      "target": "activity"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "android/app/src/main/java/com/candicetinamartins/lebenindeutschlandtrainer/MainActivity.java",
-      "source_location": "L11",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "android_app_src_main_java_com_candicetinamartins_lebenindeutschlandtrainer_mainactivity_java",
-      "target": "lebenindeutschlandtrainer_mainactivity_mainactivity"
-    },
-    {
-      "relation": "extends",
-      "confidence": "EXTRACTED",
-      "source_file": "android/app/src/main/java/com/candicetinamartins/lebenindeutschlandtrainer/MainActivity.java",
-      "source_location": "L11",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "lebenindeutschlandtrainer_mainactivity_mainactivity",
-      "target": "activity"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "android/app/src/main/java/com/candicetinamartins/lebenindeutschlandtrainer/MainActivity.java",
-      "source_location": "L14",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "lebenindeutschlandtrainer_mainactivity_mainactivity",
-      "target": "lebenindeutschlandtrainer_mainactivity_mainactivity_oncreate"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "android/app/src/main/java/com/candicetinamartins/lebenindeutschlandtrainer/MainActivity.java",
-      "source_location": "L68",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "lebenindeutschlandtrainer_mainactivity_mainactivity",
-      "target": "lebenindeutschlandtrainer_mainactivity_mainactivity_onpause"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "android/app/src/main/java/com/candicetinamartins/lebenindeutschlandtrainer/MainActivity.java",
-      "source_location": "L76",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "lebenindeutschlandtrainer_mainactivity_mainactivity",
-      "target": "lebenindeutschlandtrainer_mainactivity_mainactivity_onresume"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "android/app/src/main/java/com/candicetinamartins/lebenindeutschlandtrainer/MainActivity.java",
-      "source_location": "L84",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "lebenindeutschlandtrainer_mainactivity_mainactivity",
-      "target": "lebenindeutschlandtrainer_mainactivity_mainactivity_ondestroy"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "android/app/src/main/java/com/candicetinamartins/lebenindeutschlandtrainer/MainActivity.java",
-      "source_location": "L36",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "lebenindeutschlandtrainer_mainactivity_mainactivity",
-      "target": "lebenindeutschlandtrainer_mainactivity_mainactivity_onbackpressed"
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "fdd8a7d5e4dec57d99ca564c7e6a9eb88e470bca"
+  "built_at_commit": "fc1b0d7805ec8c52340ef97f1b89454a16df71f5"
 }
