@@ -79,7 +79,7 @@ fs.copyFileSync(path.join(__dirname, 'index.html'), path.join(distDir, 'index.ht
 console.log('✓ Copied index.html');
 
 // Copy other necessary files
-const filesToCopy = ['privacy.html', 'LICENSE', 'ads.txt', 'leben_in_deutschland_trainer_icon.svg', 'styles.css'];
+const filesToCopy = ['privacy.html', 'LICENSE', 'ads.txt', 'app-ads.txt', 'leben_in_deutschland_trainer_icon.svg', 'styles.css'];
 filesToCopy.forEach(file => {
     if (fs.existsSync(path.join(__dirname, file))) {
         let content = fs.readFileSync(path.join(__dirname, file), 'utf8');

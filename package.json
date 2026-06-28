@@ -8,10 +8,17 @@
   "scripts": {
     "build": "node build.js",
     "check": "node --check app.js && node --check questions.js",
-    "android:assets": "node build.js"
+    "android:assets": "node build.js",
+    "ios:sync": "npm run build && npx cap sync ios",
+    "ios:open": "npx cap open ios"
   },
   "devDependencies": {
     "pdf-parse": "^2.4.5",
     "pdfjs-dist": "^5.4.530"
+  },
+  "dependencies": {
+    "@capacitor/cli": "^7.6.7",
+    "@capacitor/core": "^7.6.7",
+    "@capacitor/ios": "^7.6.7"
   }
 }

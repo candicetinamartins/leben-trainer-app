@@ -7,7 +7,7 @@ redirects = []
 [functions."*"]
 
 [build]
-publish = "C:\\Users\\jaiso\\OneDrive\\Desktop\\leben in deustchland\\lidphoneapp"
+publish = "C:\\Projects\\lidphoneapp"
 publishOrigin = "default"
 
 [build.environment]

@@ -1,0 +1,10 @@
+{
+  "appId": "com.candicetinamartins.lebenindeutschlandtrainer",
+  "appName": "Leben in Deutschland Trainer",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "ios": {
+    "contentInset": "automatic",
+    "scheme": "LebenTrainer"
+  }
+}

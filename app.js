@@ -166,7 +166,7 @@ class FlashcardApp {
 
         app.innerHTML = `
             <div class="h-full w-full bg-black/95 flex flex-col items-center justify-center p-6 relative">
-                <div class="absolute top-4 right-4">
+                <div class="absolute top-4 right-4 safe-top-absolute">
                     <button class="dismiss-ad-btn px-3 py-1 text-xs font-bold text-gray-500 border border-gray-700 rounded-full opacity-0 transition-opacity duration-500" id="dismiss-ad-btn">
                         Continue →
                     </button>
@@ -255,7 +255,7 @@ class FlashcardApp {
         ];
 
         return `
-            <div class="bg-paper border-b-4 border-black p-4 shrink-0 z-10 relative">
+            <div class="bg-paper border-b-4 border-black p-4 shrink-0 z-10 relative safe-top-panel">
                 <h1 class="text-2xl font-black text-black tracking-tight leading-none">
                     LEBEN-IN-DEUTSCHLAND <br><span class="bg-black text-white px-2">TRAINER</span>
                 </h1>
@@ -325,7 +325,7 @@ class FlashcardApp {
         }
 
         return `
-            <div class="h-14 bg-white border-b-2 border-black flex items-center justify-between px-4 shrink-0">
+            <div class="h-14 bg-white border-b-2 border-black flex items-center justify-between px-4 shrink-0 safe-top-header">
                 <button class="back-btn flex items-center justify-center w-8 h-8 bg-gray-100 border-2 border-black rounded hover:bg-red-100 transition-colors">
                     ←
                 </button>
@@ -480,7 +480,7 @@ class FlashcardApp {
         const app = document.getElementById('app');
 
         app.innerHTML = `
-            <div class="h-full w-full bg-paper flex flex-col overflow-y-auto p-6 items-center justify-center">
+            <div class="h-full w-full bg-paper flex flex-col overflow-y-auto p-6 items-center justify-center safe-top-panel safe-bottom">
                 <div class="w-full max-w-md bg-white border-4 border-black shadow-neo rounded-2xl overflow-hidden text-center relative">
                     <div class="absolute top-0 left-0 w-full h-4 ${passed ? 'bg-green-500' : 'bg-red-500'} border-b-2 border-black"></div>
                     <div class="p-8 pt-12">

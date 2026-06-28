@@ -29,7 +29,20 @@
         }
 
         .safe-bottom {
-            padding-bottom: env(safe-area-inset-bottom, 20px);
+            padding-bottom: calc(2rem + env(safe-area-inset-bottom, 0px)) !important;
+        }
+
+        .safe-top-panel {
+            padding-top: calc(1rem + env(safe-area-inset-top, 0px)) !important;
+        }
+
+        .safe-top-header {
+            padding-top: env(safe-area-inset-top, 0px) !important;
+            height: calc(3.5rem + env(safe-area-inset-top, 0px)) !important;
+        }
+
+        .safe-top-absolute {
+            top: calc(1rem + env(safe-area-inset-top, 0px)) !important;
         }
 
         /* Smooth slide up animation */
@@ -96,6 +109,8 @@
         const ADSENSE_CLIENT_ID = 'ca-pub-3677433573599533';
         const CONSENT_EXPIRY_DAYS = 365;
         const IS_ANDROID_APP = /\bLIDTrainerAndroid\b/.test(navigator.userAgent);
+        const IS_IOS_APP = window.location.protocol === 'capacitor:' || /\bLIDTraineriOS\b/.test(navigator.userAgent);
+        const IS_NATIVE_APP = IS_ANDROID_APP || IS_IOS_APP;
 
         function getAdConsent() {
             const consent = localStorage.getItem('adConsent');
@@ -137,7 +152,7 @@
         }
 
         function loadAdSense() {
-            if (IS_ANDROID_APP) return;
+            if (IS_NATIVE_APP) return;
             if (document.getElementById('adsense-script')) return;
             const s = document.createElement('script');
             s.id = 'adsense-script';
@@ -157,7 +172,7 @@
 
         // Global: check if user has accepted ads
         function hasAdConsent() {
-            if (IS_ANDROID_APP) return false;
+            if (IS_NATIVE_APP) return false;
             return localStorage.getItem('adConsent') === 'accepted';
         }
 
@@ -168,7 +183,7 @@
 
         // On page load, check consent
         document.addEventListener('DOMContentLoaded', function() {
-            if (IS_ANDROID_APP) {
+            if (IS_NATIVE_APP) {
                 localStorage.setItem('adConsent', 'rejected');
                 try { updateGoogleConsent(false); } catch(e) {}
                 return;
